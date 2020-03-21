@@ -1,0 +1,100 @@
+.about-me {
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+    max-width: 1232px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.link-arrow {
+    width: 16px;
+}
+
+.card p {
+    color: black;
+    font-size: 16px;
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.sub-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width :450px;
+    height: 100px;
+    background-color: white;
+    margin-top: -50px;
+    margin-left: 100px;
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.social1 {
+    display: flex;
+    align-items: center;
+}
+
+.social2 {
+    display: flex;
+    align-items: center;
+}
+
+.social3 {
+    display: flex;
+    align-items: center;
+}
+
+.social4 {
+    display: flex;
+    align-items: center;
+}
+
+.social4 p {
+    color: black;
+}
+
+.me {
+    width: 450px;
+    pointer-events: none;
+}
+
+.bio {
+    margin-left: 16px;
+}
+
+.card h1 {
+    color: white;
+    font-size: 22px;
+}
+
+.text {
+    margin: 0 auto; 
+    max-width: 550px;
+}
+
+.text h1 {
+    font-size: 22px;
+    color: white;
+}
+
+.text p {
+    font-size: 16px;
+    color: #A5ABB1;
+    line-height: 1.5em;
+    font-weight: 400;
+}
