@@ -1,3 +1,4 @@
+
 .about-me {
     padding-left: 32px;
     padding-right: 32px;
@@ -10,7 +11,9 @@
 }
 
 .card {
-    max-width: 550px;
+    max-width: 582px;
+    padding-left: 16px;
+    padding-right: 16px;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 64px;
@@ -42,6 +45,7 @@
     margin-left: 100px;
     position: relative;
     margin-bottom: 64px;
+    z-index: 2;
 }
 
 .social1 {
@@ -70,6 +74,14 @@
 
 .me {
     width: 450px;
+    height: 304px;
+    z-index: 1;
+    background-color: black;
+    position: absolute;
+}
+
+.me-pic {
+    width: 450px;
     pointer-events: none;
 }
 
@@ -84,7 +96,12 @@
 
 .text {
     margin: 0 auto; 
-    max-width: 550px;
+    max-width: 582px;
+}
+
+.text-h1 {
+    height: 40px;
+    overflow: hidden;
 }
 
 .text h1 {

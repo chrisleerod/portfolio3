@@ -12,6 +12,7 @@ body, html {
 }
 
 .cursor {
+    overflow: hidden;
     width: 2.5em;
     height: 2.5em;
     border-radius: 50%;
@@ -23,7 +24,7 @@ body, html {
     transition: all 0.5s ease;
     transition-property: background-color, border, transform;
     transform-origin: 250% 250%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .cursor-shrink {
@@ -31,6 +32,7 @@ body, html {
     border: 35px solid rgba(255, 255, 255, 0.25);
     background-color: rgba(255, 255, 255, 1);
     mix-blend-mode: difference;
+    overflow: hidden;
    /* background-color: rgba(255, 255, 255, 0.5)*/
 }
 
@@ -44,31 +46,34 @@ body, html {
 .box1 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
-    pointer-events: none;
+    background-color: black;
 }
 
 .box2 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
+    background-color: black;
 }
 
 .box3 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
+    background-color: black;
 }
 
 .box4 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
+    background-color: black;
+}
+
+.hero-container {
+    background: #0c0c0e;
 }
 
 .hero {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
     max-width: 1232px;
     height: 80vh;
@@ -76,9 +81,6 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header {
 }
 
 .hero h1 {
@@ -244,8 +246,10 @@ body, html {
 
 .scroll {
     max-width: 1232px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 51px;
+    overflow: hidden;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -261,6 +265,11 @@ body, html {
     display: flex;
 }
 
+.projects {
+    height: 51px;
+    overflow: hidden;
+}
+
 .arrow {
     pointer-events: none;
     margin-right: 16px;
@@ -269,8 +278,8 @@ body, html {
 .project {
     margin: 0 auto;
     max-width: 1232px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-bottom: 128px;
 }
 

@@ -136,8 +136,8 @@ nav a:hover {
         display: none;
     }
     .container {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .logo {
         margin-left: 0;
