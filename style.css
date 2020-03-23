@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,900&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -24,7 +25,7 @@ body, html {
     transition: all 0.5s ease;
     transition-property: background-color, border, transform;
     transform-origin: 250% 250%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .cursor-shrink {
@@ -46,31 +47,34 @@ body, html {
 .box1 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
-    pointer-events: none;
+    background-color: black;
 }
 
 .box2 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
+    background-color: black;
 }
 
 .box3 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
+    background-color: black;
 }
 
 .box4 {
     width: 25vw;
     height: 100vh;
-    background-color: #0c0c0e;
+    background-color: black;
+}
+
+.hero-container {
+    background: #0c0c0e;
 }
 
 .hero {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
     max-width: 1232px;
     height: 80vh;
@@ -78,9 +82,6 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header {
 }
 
 .hero h1 {
@@ -104,6 +105,10 @@ body, html {
 
 .skills {
     max-width: 366px;   
+}
+
+.skills2 {
+    display: none;
 }
 
 .row1 {
@@ -149,8 +154,6 @@ body, html {
     font-size: 12px;
     padding-left: 16px;
 }
-
-
 
 #ux {
     margin: 0 auto;
@@ -246,8 +249,10 @@ body, html {
 
 .scroll {
     max-width: 1232px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 51px;
+    overflow: hidden;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -263,6 +268,11 @@ body, html {
     display: flex;
 }
 
+.projects {
+    height: 51px;
+    overflow: hidden;
+}
+
 .arrow {
     pointer-events: none;
     margin-right: 16px;
@@ -271,8 +281,8 @@ body, html {
 .project {
     margin: 0 auto;
     max-width: 1232px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-bottom: 128px;
 }
 
@@ -295,4 +305,116 @@ body, html {
     max-width: 550px;
     color: #A5ABB1;
     line-height: 1.5em;
+}
+
+@media only screen and (max-width: 992px) {
+    .cursor {
+        display: none;
+    }
+
+    .hero {
+        margin-top: 64px;
+        flex-direction: column;
+        justify-content: none;
+        height: auto;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .skills {
+        display: none;
+    }
+
+    .skills2 {
+        margin-top: 64px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills2 p {
+        font-size: 12px;
+    }
+
+    .ux-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .int-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .mot-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .prod-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .web-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .web-dev2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+
+    .scroll {
+        margin-top: 64px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects {
+        display: none;
+    }
 }
