@@ -313,7 +313,7 @@ body, html {
     }
 
     .hero {
-        margin-top: 32px;
+        margin-top: 64px;
         flex-direction: column;
         justify-content: none;
         height: auto;
@@ -321,6 +321,13 @@ body, html {
 
     .hero h1 {
         font-size: 32px;
+        max-width: none;
+        text-align: center;
+    }
+
+    .hero p {
+        text-align: center;
+        max-width: none;
     }
 
     .skills {
@@ -329,6 +336,125 @@ body, html {
 
     .skills2 {
         margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills2 p {
+        font-size: 12px;
+    }
+
+    .ux-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .int-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .mot-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .prod-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .web-design2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .web-dev2 {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 8px;
+        height: 40px;
+        background-color: #19191A;
+        border-radius: 32px;
+        display: flex;
+        align-items: center;
+    }
+
+    .scroll {
+        margin-top: 64px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cursor {
+        display: none;
+    }
+
+    .hero {
+        margin-top: 32px;
+        flex-direction: column;
+        justify-content: none;
+        height: auto;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        max-width: none;
+        text-align: left;
+    }
+
+    .hero p {
+        text-align: left;
+        max-width: none;
+    }
+
+    .skills {
+        display: none;
+    }
+
+    .skills2 {
+        margin-top: 8px;
         display: flex;
         flex-wrap: wrap;
     }
