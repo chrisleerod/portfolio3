@@ -8,12 +8,12 @@ const social4 = document.querySelector('.social4');
 var tl = gsap.timeline();
 
 tl
-    .from(".me", { duration: 0.5, scaleX: 0, transformOrigin: "left", }, 0.75)
-    .from(".me-pic", { duration: 0.5, opacity: 0 }, 1.25)
-    .to(".me", { duration: 0.55, scaleX: 0, transformOrigin: "right", }, 1.25)
-    .from(".sub-card", { duration: 2, scaleX: 0, transformOrigin: "left", ease: Power4.easeOut }, 1.5)
-    .from(".social1", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 2.5)
-    .from(".social2", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 2.7)
-    .from(".social3", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 2.9)
-    .from(".social4", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 3.1)
-    .from(".text h1", { duration: 2, y: -50, ease: Power3.easeOut }, 3.3);
+    .from(".me", { duration: 0.5, scaleX: 0, transformOrigin: "left", }, 1.25)
+    .from(".me-pic", { duration: 0.5, opacity: 0 }, 1.75)
+    .to(".me", { duration: 0.55, scaleX: 0, transformOrigin: "right", }, 1.75)
+    .from(".sub-card", { duration: 2, scaleX: 0, transformOrigin: "left", ease: Power4.easeOut }, 2)
+    .from(".social1", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 3)
+    .from(".social2", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 3.2)
+    .from(".social3", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 3.4)
+    .from(".social4", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 3.6)
+    .from(".text h1", { duration: 2, y: -50, ease: Power3.easeOut }, 3.8);
