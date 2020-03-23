@@ -424,6 +424,11 @@ body, html {
     .projects {
         display: none;
     }
+
+    .project-sep {
+        display: flex;
+        margin-top: 64px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
