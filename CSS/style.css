@@ -314,6 +314,8 @@ body, html {
 
     .hero {
         margin-top: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
         flex-direction: column;
         justify-content: none;
         height: auto;
@@ -428,6 +430,11 @@ body, html {
     .project-sep {
         display: flex;
         margin-top: 64px;
+    }
+
+    .project {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 

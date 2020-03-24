@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-    margin-left: 32px;
+    margin-left: 16px;
     font-weight: 700;
     cursor: pointer;
     top: 0;
@@ -55,7 +55,7 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 32px;
+    margin-right: 1em;
     height: 40px;
     margin-top: 2px;
     display: flex;
@@ -101,7 +101,7 @@ nav ul {
 
 nav li {
     margin-bottom: 1em;
-    margin-left: 32px;
+    margin-left: 16px;
 }
 
 nav a {
