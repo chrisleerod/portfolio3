@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: rgba(12, 12, 14, .80);
+    background: rgba(10, 10, 10, .80);
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     text-align: center;
@@ -70,7 +70,7 @@ nav {
     top: 100%;
     left: 0;
     width: 100%;
-    background: rgb(12, 12, 14);
+    background: rgb(10, 10, 10);
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
