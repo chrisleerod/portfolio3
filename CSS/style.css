@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -87,15 +87,16 @@ body, html {
 .hero h1 {
     max-width: 550px;
     font-size: 72px;
-    font-weight: 700;
-    line-height: 1.5em;
-    margin-bottom: 0px;
+    font-weight: 600;
+    line-height: 1.1em;
+    margin-bottom: 16px;
     color: white;
 }
 
 .hero p {
     max-width: 550px;
-    font-size: 18px;
+    font-size: 26px;
+    margin-top: 0px;
     font-weight: 300;
     line-height: 1.5em;
     color: #A5ABB1;
@@ -103,7 +104,7 @@ body, html {
 
 .span-bold {
     color: white;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .skills {
@@ -141,21 +142,25 @@ body, html {
 .row1 p {
     font-size: 12px;
     padding-left: 16px;
+    margin: 0;
 }
 
 .row2 p {
     font-size: 12px;
     padding-left: 16px;
+    margin: 0;
 }
 
 .row3 p {
     font-size: 12px;
     padding-left: 16px;
+    margin: 0;
 }
 
 .row4 p {
     font-size: 12px;
     padding-left: 16px;
+    margin: 0;
 }
 
 #ux {
@@ -307,13 +312,29 @@ body, html {
 .project-sep h1 {
     color: white;
     margin-left: 16px;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .project p {
     max-width: 550px;
+    font-size: 16px;
+    font-weight: 300;
     color: #A5ABB1;
     line-height: 1.5em;
+}
+
+.project-container {
+    margin: 0 auto;
+    max-width: 1264px;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.project-display {
+    height: 500px;
+    margin-bottom: 64px;
+    background-color: white;
 }
 
 @media only screen and (max-width: 992px) {
@@ -337,6 +358,7 @@ body, html {
     }
 
     .hero p {
+        font-size: 22px;
         text-align: center;
         max-width: none;
     }
@@ -353,6 +375,7 @@ body, html {
 
     .skills2 p {
         font-size: 12px;
+        margin: 0;
     }
 
     .ux-design2 {
@@ -444,6 +467,15 @@ body, html {
     .project {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .project-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .project-display {
+        margin-bottom: 32px;
     }
 }
 
