@@ -10,7 +10,7 @@ var tl = gsap.timeline();
 tl
     .from(".me", { duration: 0.5, scaleX: 0, transformOrigin: "left", }, 1.25)
     .from(".me-pic", { duration: 0.5, opacity: 0 }, 1.75)
-    .to(".me", { duration: 0.55, scaleX: 0, transformOrigin: "right", }, 1.75)
+    .to(".me", { duration: 0.5, scaleX: 0, transformOrigin: "right", }, 1.75)
     .from(".sub-card", { duration: 2, scaleX: 0, transformOrigin: "left", ease: Power4.easeOut }, 2)
     .from(".social1", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 3)
     .from(".social2", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 3.2)
