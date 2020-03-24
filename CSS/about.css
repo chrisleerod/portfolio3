@@ -1,5 +1,6 @@
 .about-container {
     background-color: #0c0c0e;
+    margin-top: 64px;
 }
 
 .about-me {
@@ -84,7 +85,7 @@
 }
 
 .me-pic {
-    width: 450px;
+    max-width: 450px;
     pointer-events: none;
 }
 
@@ -117,4 +118,31 @@
     color: #A5ABB1;
     line-height: 1.5em;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
+    .cursor {
+        display: none;
+    }
+
+    .me {
+        display: none;
+    }
+
+    .me-pic {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .sub-card {
+        max-width: 550px;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        margin-top: -5px;
+        margin-left: 0px;
+        position: relative;
+        margin-bottom: 64px;
+        z-index: 2;
+    }
 }
