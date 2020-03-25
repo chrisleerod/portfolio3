@@ -86,17 +86,18 @@ body, html {
 
 .hero h1 {
     max-width: 550px;
-    font-size: 72px;
+    font-size: 62px;
     font-weight: 600;
     line-height: 1.1em;
+    margin: 0px;
     margin-bottom: 16px;
     color: white;
 }
 
 .hero p {
     max-width: 550px;
-    font-size: 26px;
-    margin-top: 0px;
+    font-size: 16px;
+    margin: 0px;
     font-weight: 300;
     line-height: 1.5em;
     color: #A5ABB1;
@@ -311,11 +312,14 @@ body, html {
 
 .project-sep h1 {
     color: white;
+    margin: 0px;
     margin-left: 16px;
     font-size: 26px;
 }
 
 .project p {
+    margin: 0px;
+    margin-top: 16px;
     max-width: 550px;
     font-size: 16px;
     font-weight: 300;
@@ -359,6 +363,7 @@ body, html {
 
     .hero p {
         font-size: 22px;
+        margin: 0px;
         text-align: center;
         max-width: none;
     }
@@ -458,15 +463,27 @@ body, html {
     .projects {
         display: none;
     }
+    
 
     .project-sep {
         display: flex;
         margin-top: 64px;
     }
 
+    .project-sep h1 {
+        margin: 0px;
+        margin-left: 16px;
+    }
+
+    .project p {
+        margin: 0px;
+        margin-top: 16px;
+    }
+
     .project {
         padding-left: 16px;
         padding-right: 16px;
+        margin-bottom: 64px;
     }
 
     .project-container {
@@ -494,11 +511,12 @@ body, html {
     .hero h1 {
         font-size: 32px;
         max-width: none;
+        margin: 0px;
         text-align: left;
     }
 
     .hero p {
-        margin-top: 32px;
+        margin-top: 16px;
         text-align: left;
         max-width: none;
 
@@ -509,14 +527,14 @@ body, html {
     }
 
     .skills2 {
-        margin-top: 16px;
+        margin-top: 32px;
         display: flex;
         flex-wrap: wrap;
     }
 
     .skills2 p {
         font-size: 12px;
-        margin-bottom: 32px;
+        margin: 0px;
     }
 
     .ux-design2 {

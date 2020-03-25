@@ -1,6 +1,10 @@
 .about-container {
     background-color: #0a0a0a;
-    margin-top: 64px;
+    margin-top: 32px;
+}
+
+.upper {
+    margin-bottom: 32px;
 }
 
 .status {
@@ -61,7 +65,6 @@
     margin-top: -50px;
     margin-left: 100px;
     position: relative;
-    margin-bottom: 64px;
     z-index: 2;
 }
 
@@ -121,16 +124,20 @@
 }
 
 .text-h1 {
-    height: 60px;
+    height: 30px;
+    margin-bottom: 16px;
     overflow: hidden;
 }
 
 .text h1 {
     font-size: 26px;
+    margin: 0px;
+
     color: white;
 }
 
 .text p {
+    margin: 0px;
     font-size: 16px;
     color: #A5ABB1;
     line-height: 1.5em;
