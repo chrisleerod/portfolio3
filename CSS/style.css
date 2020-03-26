@@ -14,8 +14,8 @@ body, html {
 
 .cursor {
     overflow: hidden;
-    width: 2.5em;
-    height: 2.5em;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.25);
@@ -339,10 +339,81 @@ body, html {
     padding-right: 32px;
 }
 
-.project-display {
-    height: 500px;
-    margin-bottom: 64px;
-    background-color: white;
+.google-project {
+    text-decoration: none;
+}
+
+.localize-project {
+    text-decoration: none;
+}
+
+.google-project:hover .arrow-right {
+    transform: translateX(25px);
+}
+
+.google-project:hover .google-image {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+
+.localize-project:hover .arrow-right {
+    transform: translateX(25px);
+}
+
+.project-left {
+    display: flex;
+    align-items: center;
+}
+
+.text-left {
+    z-index: 10;
+    max-width: 450px;
+    margin-left: 50px;
+}
+
+.image-left {
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.image-left img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    opacity: .8;
+    display: block;
+    transition: all .5s ease;
+}
+
+.project-left h1 {
+    color: white;
+    font-size: 42px;
+    margin: 0px;
+    margin-left: -100px;
+    margin-bottom: 32px;
+}
+
+.project-left span {
+    color: #A5ABB1;
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+.case-study {
+    display: flex;
+}
+
+.project-left p {
+    color: white;
+    margin: 0px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.arrow-right {
+    margin-top: 24px;
+    margin-left: 16px;
+    transition: all .5s ease;
 }
 
 @media only screen and (max-width: 992px) {
