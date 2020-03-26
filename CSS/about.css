@@ -4,7 +4,7 @@
 }
 
 .upper {
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 .status {
@@ -125,14 +125,13 @@
 
 .text-h1 {
     height: 30px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     overflow: hidden;
 }
 
 .text h1 {
     font-size: 26px;
     margin: 0px;
-
     color: white;
 }
 
@@ -140,7 +139,7 @@
     margin: 0px;
     font-size: 16px;
     color: #A5ABB1;
-    line-height: 1.5em;
+    line-height: 2em;
     font-weight: 300;
 }
 

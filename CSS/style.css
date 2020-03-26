@@ -14,8 +14,8 @@ body, html {
 
 .cursor {
     overflow: hidden;
-    width: 15px;
-    height: 15px;
+    width: 1.5em;
+    height: 1.5em;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.25);
@@ -30,7 +30,7 @@ body, html {
 
 .cursor-shrink {
     transform: scale(1.25);
-    border: 35px solid rgba(255, 255, 255, 0.25);
+    border: 25px solid rgba(255, 255, 255, 0.25);
     background-color: rgba(255, 255, 255, 1);
     mix-blend-mode: difference;
     overflow: hidden;
@@ -99,7 +99,7 @@ body, html {
     font-size: 16px;
     margin: 0px;
     font-weight: 300;
-    line-height: 1.5em;
+    line-height: 2em;
     color: #A5ABB1;
 }
 
@@ -328,7 +328,7 @@ body, html {
     font-size: 16px;
     font-weight: 300;
     color: #A5ABB1;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .project-container {
@@ -366,7 +366,7 @@ body, html {
 }
 
 .text-left {
-    z-index: 10;
+    z-index: 1;
     max-width: 450px;
     margin-left: 50px;
 }
@@ -396,7 +396,7 @@ body, html {
 .project-left span {
     color: #A5ABB1;
     margin: 0px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .case-study {
