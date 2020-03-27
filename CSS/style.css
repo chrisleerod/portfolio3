@@ -379,12 +379,15 @@ body, html {
 .image-left {
     display: inline-block;
     overflow: hidden; 
+    width: auto;
+    height: auto;
 }
 
 .image-left img {
     margin-left: auto;
     margin-right: auto;
-    width: 750px;
+    max-width: 750px;
+    width: 100%;
     opacity: .6;
     display: block;
     transition: all .5s ease;
@@ -718,5 +721,45 @@ body, html {
 
     .projects {
         display: none;
+    }
+
+    .project-left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project-left h1 {
+        color: white;
+        font-size: 32px;
+        margin: 0px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .sub-head p {
+        line-height: 1.5em;
+        font-size: 12px;
+    }
+
+    .text-left {
+        margin-left: 0px;
+    }
+
+    .role {
+        margin-bottom: 8px;
+    }
+
+    .date {
+        margin-bottom: 8px;
+    }
+
+    .sub-head {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: white;
+        padding-bottom: 32px;
+        border-bottom: 1px solid white;
     }
 }
