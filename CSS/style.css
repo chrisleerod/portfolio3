@@ -339,6 +339,10 @@ body, html {
     padding-right: 32px;
 }
 
+.google-container {
+    margin-bottom: 64px;
+}
+
 .google-project {
     text-decoration: none;
 }
@@ -363,6 +367,7 @@ body, html {
 .project-left {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .text-left {
@@ -379,17 +384,17 @@ body, html {
 .image-left img {
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    opacity: .8;
+    width: 750px;
+    opacity: .6;
     display: block;
     transition: all .5s ease;
 }
 
 .project-left h1 {
     color: white;
-    font-size: 42px;
+    font-size: 52px;
     margin: 0px;
-    margin-left: -100px;
+    margin-left: -75px;
     margin-bottom: 32px;
 }
 
@@ -414,6 +419,22 @@ body, html {
     margin-top: 24px;
     margin-left: 16px;
     transition: all .5s ease;
+}
+
+.sub-head {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.sub-head p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.icon {
+    width: 12px;
 }
 
 @media only screen and (max-width: 992px) {
