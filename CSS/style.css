@@ -426,6 +426,8 @@ body, html {
     display: flex;
     justify-content: space-between;
     color: white;
+    padding-bottom: 32px;
+    border-bottom: 1px solid white;
 }
 
 .sub-head p {
@@ -435,6 +437,10 @@ body, html {
 
 .icon {
     width: 12px;
+}
+
+.figma {
+    height: 12px;
 }
 
 @media only screen and (max-width: 992px) {
