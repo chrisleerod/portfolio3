@@ -37,9 +37,10 @@ li {
     .footer {
         padding-left: 16px;
         padding-right: 16px;
+        margin-bottom: 8px;
     }
 
     .title {
-        margin-bottom: 16px;
+        margin-bottom: 8px;
     }
 }

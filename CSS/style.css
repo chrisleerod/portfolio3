@@ -733,6 +733,10 @@ body, html {
         margin-bottom: 128px;
     }
 
+    .google-container {
+        margin-bottom: 16px;
+    }
+
     .project-left {
         flex-direction: column;
         align-items: flex-start;
