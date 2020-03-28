@@ -723,6 +723,10 @@ body, html {
         display: none;
     }
 
+    .project {
+        margin-bottom: 128px;
+    }
+
     .project-left {
         flex-direction: column;
         align-items: flex-start;
@@ -754,7 +758,7 @@ body, html {
     }
 
     .sub-head {
-        margin-top: 32px;
+        margin-top: 64px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
