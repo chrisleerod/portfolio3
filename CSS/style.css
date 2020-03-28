@@ -371,6 +371,7 @@ body, html {
 }
 
 .text-left {
+    font-weight: 300;
     z-index: 0;
     max-width: 450px;
     margin-left: 50px;
