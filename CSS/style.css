@@ -428,9 +428,9 @@ body, html {
     margin-top: 64px;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #A5ABB1;
     padding-bottom: 32px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
 .sub-head p {
@@ -766,8 +766,6 @@ body, html {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        color: white;
         padding-bottom: 32px;
-        border-bottom: 1px solid white;
     }
 }
