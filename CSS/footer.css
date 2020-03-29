@@ -6,6 +6,8 @@
     max-width: 1264px;
     padding-left: 32px;
     padding-right: 32px;
+    font-size: 14px;
+    margin-bottom: 64px;
 }
 
 ul {
@@ -27,9 +29,8 @@ li {
 }
 
 .title {
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     font-weight: 600;
-    font-size: 16px;
     color: white;
 }
 
@@ -37,7 +38,7 @@ li {
     .footer {
         padding-left: 16px;
         padding-right: 16px;
-        margin-bottom: 8px;
+        margin-bottom: 32px;
     }
 
     .title {
