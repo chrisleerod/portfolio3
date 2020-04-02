@@ -353,7 +353,7 @@ body, html {
 }
 
 .google-project:hover .google-image {
-    transform: scale(1.1);
+    transform: scale(.85);
     transform-origin: 50% 50%;
 }
 
@@ -388,6 +388,7 @@ body, html {
     max-width: 750px;
     width: 100%;
     display: block;
+    transform: scale(.8);
     transition: all .5s ease;
     z-index: 1;
 }
