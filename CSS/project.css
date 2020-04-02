@@ -70,12 +70,17 @@ body, html {
 
 .top-image {
     max-width: 100%;
-    height: 85vh;
-    background-image: url(https://images.unsplash.com/photo-1571787720438-1e7d2e3a2c9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+    background-image: linear-gradient(112deg,#3f64ee,#7592f7);
     background-size: cover;
     background-position: center center;
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
+}
+
+.top-image img {
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .flex-container {
