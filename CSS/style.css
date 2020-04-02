@@ -379,6 +379,15 @@ body, html {
     background-color: #3d64ed;
 }
 
+.image-left-mac {
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    background-image: url(../images/mac-bg.jpg);
+    background-size: cover;
+}
+
 .google-image {
     margin-left: auto;
     margin-right: auto;
