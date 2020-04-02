@@ -80,6 +80,7 @@ body, html {
 
 .top-image img {
     max-width: 850px;
+    width: 100%;
     margin: 0 auto;
 }
 
