@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
-
 *, *::before, *::after {
     box-sizing: border-box;
-
 }
 
 body, html {
@@ -34,7 +32,7 @@ body, html {
     background-color: rgba(255, 255, 255, 1);
     mix-blend-mode: difference;
     overflow: hidden;
-   /* background-color: rgba(255, 255, 255, 0.5)*/
+    /* background-color: rgba(255, 255, 255, 0.5)*/
 }
 
 .loader {
@@ -70,7 +68,7 @@ body, html {
 
 .top-image {
     max-width: 100%;
-    background-image: linear-gradient(112deg,#3f64ee,#7592f7);
+    background-image: linear-gradient(112deg, #3f64ee, #7592f7);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -79,9 +77,12 @@ body, html {
 }
 
 .top-image img {
-    max-width: 850px;
+    max-width: 650px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    pointer-events: none;
 }
 
 .flex-container {
@@ -89,7 +90,7 @@ body, html {
     max-width: 1264px;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 128px;
+    padding-bottom: 98px;
     margin: 0 auto;
 }
 
@@ -125,6 +126,7 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .supplementary-info h1 {
@@ -137,8 +139,24 @@ body, html {
     margin: 0px;
 }
 
+.roles {
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.platform {
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.time-period {
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
 .process-deck {
     height: 50px;
+    margin-bottom: 32px;
 }
 
 .button {
@@ -255,4 +273,52 @@ body, html {
     min-width: 32px;
     margin-right: 32px;
     margin-left: 16px;
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .project-info {
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+    .project-info h1 {
+        color: white;
+        font-size: 42px;
+        margin-bottom: 32px;
+    }
+    
+    .project-info p {
+        color: white;
+        font-size: 22px;
+        line-height: 1.5em;
+        max-width: 500px;
+        margin: 0px;
+    }
+
+    .project-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .project-header {
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+    .project-header h1 {
+        margin-bottom: 16px;
+    }
 }
