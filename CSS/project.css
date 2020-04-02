@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+
+}
+
+body, html {
+    margin: 0;
+    background: #0a0a0a;
+    height: 100%;
+}
+
+.cursor {
+    overflow: hidden;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.25);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.5s ease;
+    transition-property: background-color, border, transform;
+    transform-origin: 250% 250%;
+    z-index: 3;
+}
+
+.cursor-shrink {
+    transform: scale(1.25);
+    border: 25px solid rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 1);
+    mix-blend-mode: difference;
+    overflow: hidden;
+   /* background-color: rgba(255, 255, 255, 0.5)*/
+}
+
+.loader {
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    pointer-events: none;
+}
+
+.box1 {
+    width: 25vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.box2 {
+    width: 25vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.box3 {
+    width: 25vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.box4 {
+    width: 25vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.top-image {
+    max-width: 100%;
+    height: 85vh;
+    background-image: url(https://images.unsplash.com/photo-1571787720438-1e7d2e3a2c9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+    background-size: cover;
+    background-position: center center;
+}
+
+.flex-container {
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+}
+
+.project-container {
+    margin: 0 auto;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: auto;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.project-info h1 {
+    color: white;
+    font-size: 72px;
+    margin: 0px;
+}
+
+.project-info p {
+    color: white;
+    font-size: 42px;
+    line-height: 1.5em;
+    max-width: 500px;
+    margin: 0px;
+}
+
+.supplementary-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.supplementary-info h1 {
+    color: white;
+    font-size: 16px;
+}
+
+.supplementary-info p {
+    color: white;
+}
+
+.button {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button h1 {
+    color: black;
+    font-size: 16px;
+}
+
+.project-header {
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-container h1 {
+    color: white;
+    font-size: 26px;
+    max-width: 550px;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+.project-container p {
+    color: #A5ABB1;
+    font-size: 16px;
+    max-width: 550px;
+    line-height: 2em;
+    margin: 0px;
+}
+
+.background-info {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.background-info h1 {
+    margin-bottom: 16px;
+}
+
+.the-challenge {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.the-challenge h1 {
+    margin-bottom: 16px;
+}
+
+.defining-the-sprint {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.defining-the-sprint h1 {
+    margin-bottom: 16px;
+}
+
+.sprint-image {
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 128px;
+}
+
+.understand {
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.understand h1 {
+    margin-bottom: 16px;
+}
+
+.hmw-paragraph {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.hmw-paragraph p {
+    max-width: 475px;
+    color: white;
+    font-weight: 700;
+}
+
+.guidance-paragraph {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.guidance-paragraph p {
+    max-width: 475px;
+    color: white;
+    font-weight: 700;
+}
+
+.icon {
+    min-width: 32px;
+    margin-right: 32px;
+    margin-left: 16px;
+}

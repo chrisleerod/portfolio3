@@ -9,10 +9,7 @@ body {
 }
 
 header {
-    background: rgba(10, 10, 10);
-    border-bottom: 1px solid rgba(255, 255, 255, .05);
-    backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(10, 10, 10, 0);
     text-align: center;
     position: fixed;
     width: 100%;
@@ -90,6 +87,7 @@ nav {
 
 .resume {
     padding-bottom: 12px;
+    margin-right: 0px;
 }
 
 nav ul {
@@ -179,7 +177,6 @@ nav a:hover {
     }
     .resume {
         padding-bottom: 6px;
-        margin-right: 0px;
     }
     nav ul {
         display: flex;
