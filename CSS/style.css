@@ -353,6 +353,11 @@ body, html {
 }
 
 .google-project:hover .google-image {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.google-project:hover .iphone {
     transform: scale(.85);
     transform-origin: 50% 50%;
 }
@@ -379,10 +384,20 @@ body, html {
     overflow: hidden;
     width: auto;
     height: auto;
-    background-image: linear-gradient(112deg,#3f64ee,#7592f7);
+    background-color: rgb(24, 25, 27);
 }
 
-.image-left img {
+.google-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+    width: 100%;
+    display: block;
+    transition: all .5s ease;
+    z-index: 1;
+}
+
+.iphone {
     margin-left: auto;
     margin-right: auto;
     max-width: 750px;
@@ -391,11 +406,6 @@ body, html {
     transform: scale(.8);
     transition: all .5s ease;
     z-index: 1;
-}
-
-.google-image2 {
-    position: absolute;
-    top: 0;
 }
 
 .project-left h1 {
