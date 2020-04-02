@@ -70,35 +70,6 @@ body, html {
     background-color: black;
 }
 
-.progressContainer {
-    position: fixed;
-    top: 50%;
-    right: 40px;
-    z-index: 1;
-    height: 100px;
-    width: 2px;
-    background: rgba(152, 152, 158, 0.3);
-    overflow: hidden;
-    transform: translate(0, -50%);
-}
-
-.progressFill {
-    width: 2px;
-    background: white;
-    height: 0%;
-}
-
-.progressFillAnimation {
-    animation: barAnimation 2s;
-    -moz-animation: barAnimation 2s;
-    /* Firefox */
-    -webkit-animation: barAnimation 2s;
-    /* Safari and Chrome */
-    -o-animation: barAnimation 2s;
-    /* Opera */
-    height: 0;
-}
-
 .hero-container {
     background: #0a0a0a;
 }
@@ -485,6 +456,9 @@ body, html {
 
 @media only screen and (max-width: 992px) {
     .cursor {
+        display: none;
+    }
+    .progressContainer {
         display: none;
     }
     .hero {

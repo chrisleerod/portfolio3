@@ -73,7 +73,7 @@ body, html {
 .progressContainer {
     position: fixed;
     top: 50%;
-    right: 40px;
+    right: 32px;
     z-index: 1;
     height: 100px;
     width: 2px;
@@ -110,7 +110,7 @@ body, html {
 }
 
 .top-image img {
-    max-width: 650px;
+    max-width: 850px;
     width: 100%;
     margin: 0 auto;
     margin-top: 64px;

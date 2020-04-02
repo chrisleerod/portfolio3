@@ -1,8 +1,8 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction2()};
 
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myProgress").style.height = scrolled + "%";
+function myFunction2() {
+  var winScroll2 = document.body.scrollTop || document.documentElement.scrollTop;
+  var height2 = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled2 = (winScroll2 / height2) * 100;
+  document.getElementById("myProgress").style.height = scrolled2 + "%";
 }
