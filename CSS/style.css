@@ -379,12 +379,29 @@ body, html {
     background-color: #3d64ed;
 }
 
+.image-left-botmart {
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    background-color: #ff004b;
+}
+
 .image-left-mac {
     display: inline-block;
     overflow: hidden;
     width: auto;
     height: auto;
-    background-image: url(../images/mac-bg.jpg);
+    background-image: url(../images/mac-bg.png);
+    background-size: cover;
+}
+
+.image-left-windows {
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    background-image: url(../images/windows-bg.png);
     background-size: cover;
 }
 
