@@ -142,6 +142,27 @@
     font-weight: 300;
 }
 
+.case-study:hover .arrow-right {
+    transform: translateX(25px);
+}
+
+.case-study {
+    display: inline-flex;
+    z-index: 1;
+}
+
+.case-study p {
+    margin: 0px;
+    font-weight: 700;
+    color: white;
+}
+
+.arrow-right {
+    margin-left: 16px;
+    margin-top: 0px;
+    transition: all .5s ease;
+}
+
 .border {
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
