@@ -442,6 +442,7 @@ body, html {
 
 .case-study {
     display: flex;
+    z-index: 1;
 }
 
 .project-left p {
@@ -462,7 +463,7 @@ body, html {
     display: flex;
     justify-content: space-between;
     color: #A5ABB1;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
@@ -730,7 +731,7 @@ body, html {
         margin-bottom: 128px;
     }
     .google-container {
-        margin-bottom: 32px;
+        margin-bottom: 64px;
     }
     .project-left {
         flex-direction: column;
@@ -761,6 +762,5 @@ body, html {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-bottom: 32px;
     }
 }
