@@ -189,7 +189,7 @@ body, html {
 
 .process-deck {
     height: 50px;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 .process-deck:hover .arrow-right {
@@ -252,7 +252,7 @@ body, html {
 }
 
 .background-info {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto;
     margin-bottom: 64px;
 }
@@ -261,8 +261,13 @@ body, html {
     margin-bottom: 16px;
 }
 
+.background-info p {
+    max-width: 680px;
+    font-size: 16px;
+}
+
 .the-challenge {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto;
     margin-bottom: 64px;
 }
@@ -271,24 +276,32 @@ body, html {
     margin-bottom: 16px;
 }
 
+.the-challenge p {
+    max-width: 680px;
+}
+
 .defining-the-sprint {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto;
-    margin-bottom: 128px;
+    margin-bottom: 64px;
 }
 
 .defining-the-sprint h1 {
     margin-bottom: 16px;
 }
 
+.defining-the-sprint p {
+    max-width: 680px;
+}
+
 .sprint-image {
     max-width: 1200px;
     width: 100%;
-    margin-bottom: 128px;
+    margin-bottom: 64px;
 }
 
 .understand {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto;
     margin-bottom: 64px;
 }
@@ -297,8 +310,12 @@ body, html {
     margin-bottom: 16px;
 }
 
+.understand p {
+    max-width: 680px;
+}
+
 .hmw-paragraph {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -306,13 +323,13 @@ body, html {
 }
 
 .hmw-paragraph p {
-    max-width: 475px;
+    max-width: 605px;
     color: white;
     font-weight: 700;
 }
 
 .guidance-paragraph {
-    max-width: 550px;
+    max-width: 680px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -320,7 +337,7 @@ body, html {
 }
 
 .guidance-paragraph p {
-    max-width: 475px;
+    max-width: 605px;
     color: white;
     font-weight: 700;
 }
@@ -332,6 +349,14 @@ body, html {
 }
 
 @media only screen and (max-width: 992px) {
+    .defining-the-sprint {
+        margin-bottom: 32px;
+    }
+
+    .sprint-image {
+        margin-bottom: 32px;
+    }
+
     .cursor {
         display: none;
     }
