@@ -21,44 +21,11 @@ header {
 .container {
     max-width: 1264px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .hamburger {
     width: 40px;
     cursor: pointer;
-}
-
-.home-me {
-    display: flex;
-    text-align: left;
-}
-
-.home-me img {
-    width: 36px;
-    height: auto;
-    margin-right: 12px;
-    border-radius: 50%;
-}
-
-.name-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.name-info h1 {
-    color: white;
-    font-size: 14px;
-    margin: 0px;
-}
-
-.name-info p {
-    color: #A5ABB1;
-    font-size: 12px;
-    margin: 0px;
 }
 
 .logo {
