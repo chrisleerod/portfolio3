@@ -79,11 +79,25 @@ body, html {
     padding-right: 32px;
     margin: 0 auto;
     max-width: 1264px;
-    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 256px;
+    margin-top: 256px;
+}
+
+
+.header2 img {
+    max-width: 256px;
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 64px;
 }
 
 .hero h1 {
@@ -497,15 +511,21 @@ body, html {
         height: auto;
     }
     .hero h1 {
-        font-size: 32px;
+        font-size: 42px;
         max-width: none;
-        text-align: center;
     }
     .hero p {
         font-size: 16px;
         margin: 0px;
-        text-align: center;
         max-width: none;
+    }
+    .header2 {
+        margin-top: 128px;
+        margin-bottom: 128px;
+    }
+    .header2 img {
+        max-width: 128px;
+        margin-right: 32px;
     }
     .skills {
         display: none;
@@ -623,10 +643,9 @@ body, html {
         display: none;
     }
     .hero {
-        margin-top: 128px;
+        margin-top: 0px;
         flex-direction: column;
         justify-content: none;
-        height: auto;
     }
     .hero h1 {
         font-size: 42px;
@@ -638,6 +657,15 @@ body, html {
         margin-top: 16px;
         text-align: left;
         max-width: none;
+    }
+    .header2 {
+        margin-top: 64px;
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+    .header2 img {
+        margin-bottom: 32px;
+        margin-right: 0px;
     }
     .skills {
         display: none;
