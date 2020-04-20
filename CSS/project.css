@@ -265,7 +265,7 @@ body, html {
     width: 100%;
     border-radius: 6px;
     padding: 64px;
-    background-color: #0e0e0e;
+    background-color: #151518;
 }
 
 figcaption {
@@ -412,9 +412,21 @@ figcaption {
     flex-wrap: wrap;
 }
 
+.insights h1 {
+    font-size: 26px;
+}
+
 .insights div {
     max-width: 300px;
     margin-bottom: 32px;
+}
+
+.define {
+    margin-bottom: 64px;
+}
+
+.define h1 {
+    margin-bottom: 16px;
 }
 
 .insights h1 {
@@ -428,6 +440,10 @@ figcaption {
 
     .progressContainer {
         display: none;
+    }
+
+    .google-product {
+        padding: 32px;
     }
 
     .insights {
@@ -479,7 +495,6 @@ figcaption {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        margin-bottom: 64px;
     }
 
     .project-header h1 {
