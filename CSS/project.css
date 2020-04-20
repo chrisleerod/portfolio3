@@ -422,7 +422,13 @@ figcaption {
 }
 
 .define {
+    margin: 0 auto;
     margin-bottom: 64px;
+    max-width: 680px;
+}
+
+.define p {
+    max-width: 680px;
 }
 
 .define h1 {
