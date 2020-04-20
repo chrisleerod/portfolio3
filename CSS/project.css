@@ -406,24 +406,32 @@ figcaption {
 }
 
 .insights {
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.evident {
+    margin: 0px;
+}
+
+.interest {
+    margin: 0px;
+}
+
 .insights h1 {
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .insights div {
     max-width: 300px;
-    margin-bottom: 32px;
+    margin-bottom: 0px;
 }
 
 .define {
     margin: 0 auto;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     max-width: 680px;
 }
 
@@ -452,10 +460,15 @@ figcaption {
         padding: 32px;
     }
 
+    .define {
+        margin-bottom: 64px;
+    }
+
     .insights {
         flex-direction: column;
         justify-content: center;
         padding-left: 16px;
+        margin-bottom: 64px;
     }
 
     .insights div {
