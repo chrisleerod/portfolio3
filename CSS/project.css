@@ -465,16 +465,28 @@ figcaption {
     max-width: 680px;
 }
 
+.integrations h1 {
+    margin-bottom: 16px;;
+}
+
 .personas {
     margin: 0 auto;
     margin-bottom: 64px;
     max-width: 680px;
 }
 
+.personas h1 {
+    margin-bottom: 16px;
+}
+
 .experienced-students {
     margin: 0 auto;
     margin-bottom: 128px;
     max-width: 680px;
+}
+
+.experienced-students h1 {
+    margin-bottom: 16px;
 }
 
 .sketch {
@@ -485,16 +497,28 @@ figcaption {
     padding-top: 128px;
 }
 
+.sketch h1 {
+    margin-bottom: 16px;
+}
+
 .iterations {
     margin: 0 auto;
     margin-bottom: 128px;
     max-width: 680px;
 }
 
+.iterations h1 {
+    margin-bottom: 16px;
+}
+
 .validating-iterations {
     margin: 0 auto;
     margin-bottom: 128px;
     max-width: 680px;
+}
+
+.validating-iterations h1 {
+    margin-bottom: 16px;
 }
 
 .prototype {
@@ -505,10 +529,18 @@ figcaption {
     padding-top: 128px;
 }
 
+.prototype h1 {
+    margin-bottom: 16px;
+}
+
 .user-testing {
     margin: 0 auto;
     margin-bottom: 128px;
     max-width: 680px;
+}
+
+.user-testing h1 {
+    margin-bottom: 16px;
 }
 
 @media only screen and (max-width: 992px) {
