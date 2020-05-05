@@ -244,10 +244,18 @@ body, html {
     margin: 0px;
 }
 
-.project-container p {
+.header-p {
     color: #A5ABB1;
     font-size: 16px;
     max-width: 550px;
+    line-height: 2em;
+    margin: 0px;
+    margin: 0 auto;
+}
+
+.project-container p {
+    color: #A5ABB1;
+    font-size: 16px;
     line-height: 2em;
     margin: 0px;
     margin: 0 auto;
@@ -357,6 +365,8 @@ figcaption {
     max-width: 680px;
     margin: 0 auto;
     margin-bottom: 64px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 128px;
 }
 
 .understand2 h1 {
@@ -433,6 +443,8 @@ figcaption {
     margin: 0 auto;
     margin-bottom: 128px;
     max-width: 680px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 128px;
 }
 
 .define p {
@@ -445,6 +457,58 @@ figcaption {
 
 .insights h1 {
     margin-bottom: 16px;
+}
+
+.integrations {
+    margin: 0 auto;
+    margin-bottom: 128px;
+    max-width: 680px;
+}
+
+.personas {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 680px;
+}
+
+.experienced-students {
+    margin: 0 auto;
+    margin-bottom: 128px;
+    max-width: 680px;
+}
+
+.sketch {
+    margin: 0 auto;
+    margin-bottom: 128px;
+    max-width: 680px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 128px;
+}
+
+.iterations {
+    margin: 0 auto;
+    margin-bottom: 128px;
+    max-width: 680px;
+}
+
+.validating-iterations {
+    margin: 0 auto;
+    margin-bottom: 128px;
+    max-width: 680px;
+}
+
+.prototype {
+    margin: 0 auto;
+    margin-bottom: 128px;
+    max-width: 680px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 128px;
+}
+
+.user-testing {
+    margin: 0 auto;
+    margin-bottom: 128px;
+    max-width: 680px;
 }
 
 @media only screen and (max-width: 992px) {
