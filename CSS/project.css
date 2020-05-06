@@ -351,6 +351,10 @@ figcaption {
     margin: 0 auto;
 }
 
+.super {
+    font-size: 12px;
+}
+
 .understand {
     max-width: 680px;
     margin: 0 auto;
