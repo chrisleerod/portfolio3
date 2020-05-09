@@ -537,6 +537,24 @@ figcaption {
     margin-bottom: 16px;
 }
 
+.view-prototype {
+    display: inline-flex;
+    margin-top: 32px;
+}
+
+.view-prototype img {
+    transition: all 0.3s ease;
+}
+
+.view-prototype:hover img {
+    transform: translateX(16px);
+}
+
+.view-prototype span {
+    color: white;
+    margin-right: 16px;
+}
+
 .user-testing {
     margin: 0 auto;
     margin-bottom: 128px;
