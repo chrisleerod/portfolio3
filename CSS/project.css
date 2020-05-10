@@ -420,14 +420,25 @@ figcaption {
 }
 
 .insights {
-    margin-bottom: 128px;
     display: flex;
+    flex-direction: column;
+    align-self: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    background-color: #151518;
+    padding: 32px;
+    text-align: center;
+    border-radius: 6px;
 }
 
 .evident {
-    margin: 0px;
+    margin-bottom: 64px;
+}
+
+.change {
+    margin-bottom: 64px;
 }
 
 .interest {
@@ -436,11 +447,7 @@ figcaption {
 
 .insights h1 {
     font-size: 22px;
-}
-
-.insights div {
-    max-width: 300px;
-    margin-bottom: 0px;
+    margin: 0 auto;
 }
 
 .define {
@@ -583,15 +590,14 @@ figcaption {
     }
 
     .insights {
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 16px;
         margin-bottom: 64px;
     }
 
-    .insights div {
-        max-width: 680px;
-        margin: 0 auto;
+    .evident {
+        margin-bottom: 32px;
+    }
+    
+    .change {
         margin-bottom: 32px;
     }
 }
