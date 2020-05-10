@@ -572,6 +572,36 @@ figcaption {
     margin-bottom: 16px;
 }
 
+.user-feedback {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 680px;
+}
+
+.user-feedback h1 {
+    margin-bottom: 16px;
+}
+
+.testing-accomplish {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 680px;
+}
+
+.testing-accomplish h1 {
+    margin-bottom: 16px;
+}
+
+.final-designs {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 680px;
+}
+
+.final-designs h1 {
+    margin-bottom: 16px;
+}
+
 @media only screen and (max-width: 992px) {
     .cursor {
         display: none;
