@@ -37,159 +37,164 @@
 
 </head>
 
-<body>
-    <div class="cursor"></div>
+<body onload="followMouse();">
+    <div class="wrap">
+        <div class="cursor"></div>
 
-    <div class="loader">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-    </div>
+        <div class="loader">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+        </div>
 
-    <div class="header">
-        <header>
-            <div class="container">
-                <h1 class="logo"><a class="logo-home" href="index.html">Chris Rodriguez</a></h1>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
-                <nav>
-                    <ul>
-                        <li class="home"><a href="index.html">Home</a></li>
-                        <li class="about"><a href="about.html">About</a></li>
-                        <li class="resume"><a
-                                href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
-                                target="_blank">Resume</a></li>
-                    </ul>
-                </nav>
-                <label for="nav-toggle" class="nav-toggle-label">
-                    <svg class="hamburger" viewBox="0 0 100 100">
-                        <line class="line-one" x1="50" y1="42" x2="100" y2="42" fill="none" stroke="#fff"
-                            stroke-miterlimit="10" stroke-width="2" />
-                        <line class="line-three" x1="50" y1="72" x2="100" y2="72" fill="none" stroke="#fff"
-                            stroke-miterlimit="10" stroke-width="2" />
-                    </svg>
-                </label>
-            </div>
-        </header>
-    </div>
-
-    <div class="spacer"></div>
-
-    <div class="about-container">
-        <div class="card">
-            <div class="upper">
-                <div class="me">
+        <div class="header">
+            <header>
+                <div class="container">
+                    <h1 class="logo"><a class="logo-home" href="index.html">Chris Rodriguez</a></h1>
+                    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                    <nav>
+                        <ul>
+                            <li class="home"><a href="index.html">Home</a></li>
+                            <li class="about"><a href="about.html">About</a></li>
+                            <li class="resume"><a
+                                    href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
+                                    target="_blank">Resume</a></li>
+                        </ul>
+                    </nav>
+                    <label for="nav-toggle" class="nav-toggle-label">
+                        <svg class="hamburger" viewBox="0 0 100 100">
+                            <line class="line-one" x1="50" y1="42" x2="100" y2="42" fill="none" stroke="#fff"
+                                stroke-miterlimit="10" stroke-width="2" />
+                            <line class="line-three" x1="50" y1="72" x2="100" y2="72" fill="none" stroke="#fff"
+                                stroke-miterlimit="10" stroke-width="2" />
+                        </svg>
+                    </label>
                 </div>
-                <div class="me-container">
-                    <img class="me-pic" src="images/peach.jpg" alt="">
-                </div>
-                <div class="sub-overlay">
-                </div>
-                <div class="sub-card">
-                    <div class="social1">
-                        <a href="https://linkedin.com/in/chrisleerod" target="_blank">
-                            <p>LinkedIn</p>
-                        </a>
-                        <a href="https://linkedin.com/in/chrisleerod" target="_blank">
-                            <img class="link-arrow" src="icons/link-arrow.svg" alt="">
-                        </a>
+            </header>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="about-container">
+            <div class="card">
+                <div class="upper">
+                    <div class="me">
                     </div>
-                    <div class="social2">
-                        <a href="https://github.com/chrisleerod" target="_blank">
-                            <p>GitHub</p>
-                        </a>
-                        <a href="https://github.com/chrisleerod" target="_blank">
-                            <img class="link-arrow" src="icons/link-arrow.svg" alt="">
-                        </a>
+                    <div class="me-container">
+                        <img class="me-pic" src="images/peach.jpg" alt="">
                     </div>
-                    <div class="social3">
-                        <a href="mailto:chrisleerod@gmail.com">
-                            <p>Email</p>
-                        </a>
-                        <a href="mailto:chrisleerod@gmail.com">
-                            <img class="link-arrow" src="icons/link-arrow.svg" alt="">
-                        </a>
+                    <div class="sub-overlay">
                     </div>
-                    <div class="social4">
-                        <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
-                            target="_blank">
-                            <p>Resume</p>
-                        </a>
-                        <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
-                            target="_blank">
-                            <img class="link-arrow" src="icons/link-arrow.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text">
-                <div class="text-h1">
-                    <h1>A little about myself</h1>
-                </div>
-                <p>I’m a multi-faceted <span class="span-bold"> designer and developer</span> based in Nashville,
-                    Tennessee. I attend Belmont University
-                    and
-                    study Computer-Science. I’m <span class="span-bold"> obsessed with technology</span> and the things
-                    it’s allowing us to accomplish.
-                    <br>
-                    <br>
-                    Outside of school,<span class="span-bold"> I run a design business</span> that specializes in
-                    branding, web, motion and product
-                    design.
-                </p>
-                <a href="https://twitter.com/imagecrate" target="_blank">
-                    <div class="case-study">
-                        <p>View Design Business</p>
-                        <div class="arrow">
-                            <img class="arrow-right" src="icons/arrow-right.svg" alt="">
-                            <img class="arrow-right" src="icons/arrow-right.svg" alt="">
+                    <div class="sub-card">
+                        <div class="social1">
+                            <a href="https://linkedin.com/in/chrisleerod" target="_blank">
+                                <p>LinkedIn</p>
+                            </a>
+                            <a href="https://linkedin.com/in/chrisleerod" target="_blank">
+                                <img class="link-arrow" src="icons/link-arrow.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="social2">
+                            <a href="https://github.com/chrisleerod" target="_blank">
+                                <p>GitHub</p>
+                            </a>
+                            <a href="https://github.com/chrisleerod" target="_blank">
+                                <img class="link-arrow" src="icons/link-arrow.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="social3">
+                            <a href="mailto:chrisleerod@gmail.com">
+                                <p>Email</p>
+                            </a>
+                            <a href="mailto:chrisleerod@gmail.com">
+                                <img class="link-arrow" src="icons/link-arrow.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="social4">
+                            <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
+                                target="_blank">
+                                <p>Resume</p>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
+                                target="_blank">
+                                <img class="link-arrow" src="icons/link-arrow.svg" alt="">
+                            </a>
                         </div>
                     </div>
-                </a>
-                <p>
-                    An interesting fact about myself is that before investing my time into Computer-Science and UX, I
-                    was a
-                    Pre-Med student and minoring in Chemistry!
-                </p>
-            </div>
-        </div>
-        <div class="border"></div>
-    </div>
+                </div>
 
-    <div class="footer">
-        <div class="column1">
-            <ul>
-                <li class="title">Thank You</li>
-                <li>Thank you for scrolling and visiting my portfolio. If you want to talk about any of my projects or
-                    just chat, don’t hesitate to reach out to me!</li>
-            </ul>
+                <div class="text">
+                    <div class="text-h1">
+                        <h1>A little about myself</h1>
+                    </div>
+                    <p>I’m a multi-faceted <span class="span-bold"> designer and developer</span> based in Nashville,
+                        Tennessee. I attend Belmont University
+                        and
+                        study Computer-Science. I’m <span class="span-bold"> obsessed with technology</span> and the
+                        things
+                        it’s allowing us to accomplish.
+                        <br>
+                        <br>
+                        Outside of school,<span class="span-bold"> I run a design business</span> that specializes in
+                        branding, web, motion and product
+                        design.
+                    </p>
+                    <a href="https://twitter.com/imagecrate" target="_blank">
+                        <div class="case-study">
+                            <p>View Design Business</p>
+                            <div class="arrow">
+                                <img class="arrow-right" src="icons/arrow-right.svg" alt="">
+                                <img class="arrow-right" src="icons/arrow-right.svg" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <p>
+                        An interesting fact about myself is that before investing my time into Computer-Science and UX,
+                        I
+                        was a
+                        Pre-Med student and minoring in Chemistry!
+                    </p>
+                </div>
+            </div>
+            <div class="border"></div>
         </div>
-        <div class="column3">
-            <ul>
-                <li class="title">Contact</li>
-                <li>+1 615 971 6558</li>
-                <li>chrisleerod@gmail.com</li>
-            </ul>
-        </div>
-        <div class="column2">
-            <ul>
-                <li class="title">Social Links</li>
-                <a href="https://github.com/chrisleerod" target="_blank">
-                    <li>GitHub</li>
-                </a>
-                <a href="https://linkedin.com/in/chrisleerod" target="_blank">
-                    <li>LinkedIn</li>
-                </a>
-            </ul>
-        </div>
-        <div class="column4">
-            <ul>
-                <li class="title">External Links</li>
-                <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing">
-                    <li>Resume</li>
-                </a>
-            </ul>
+
+        <div class="footer">
+            <div class="column1">
+                <ul>
+                    <li class="title">Thank You</li>
+                    <li>Thank you for scrolling and visiting my portfolio. If you want to talk about any of my projects
+                        or
+                        just chat, don’t hesitate to reach out to me!</li>
+                </ul>
+            </div>
+            <div class="column3">
+                <ul>
+                    <li class="title">Contact</li>
+                    <li>+1 615 971 6558</li>
+                    <li>chrisleerod@gmail.com</li>
+                </ul>
+            </div>
+            <div class="column2">
+                <ul>
+                    <li class="title">Social Links</li>
+                    <a href="https://github.com/chrisleerod" target="_blank">
+                        <li>GitHub</li>
+                    </a>
+                    <a href="https://linkedin.com/in/chrisleerod" target="_blank">
+                        <li>LinkedIn</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="column4">
+                <ul>
+                    <li class="title">External Links</li>
+                    <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing">
+                        <li>Resume</li>
+                    </a>
+                </ul>
+            </div>
         </div>
     </div>
 

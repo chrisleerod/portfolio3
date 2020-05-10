@@ -13,6 +13,14 @@ body, html {
 ::-webkit-scrollbar {
     display: none;
 }
+.wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: scroll;
+  }
 
 .cursor {
     overflow: hidden;
@@ -276,8 +284,6 @@ body, html {
     display: flex;
     justify-content: space-between;
 }
-
-.scroll img {}
 
 .scroll p {
     color: white;

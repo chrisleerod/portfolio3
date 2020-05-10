@@ -36,278 +36,291 @@
 
 </head>
 
-<body>
-    <div class="cursor"></div>
+<body onload="followMouse();">
+    <div class="wrap">
+        <div class="cursor"></div>
 
-    <div class="loader">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-    </div>
+        <div class="loader">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+        </div>
 
-    <div class="header">
-        <header>
-            <div class="container">
-                <h1 class="logo"><a class="logo-home" href="index.html">Chris Rodriguez</a></h1>
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
-                <nav>
-                    <ul>
-                        <li class="home"><a href="index.html">Home</a></li>
-                        <li class="about"><a href="about.html">About</a></li>
-                        <li class="resume"><a
-                                href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
-                                target="_blank">Resume</a></li>
-                    </ul>
-                </nav>
-                <label for="nav-toggle" class="nav-toggle-label">
-                    <svg class="hamburger" viewBox="0 0 100 100">
-                        <line class="line-one" x1="50" y1="42" x2="100" y2="42" fill="none" stroke="#fff"
-                            stroke-miterlimit="10" stroke-width="2" />
-                        <line class="line-three" x1="50" y1="72" x2="100" y2="72" fill="none" stroke="#fff"
-                            stroke-miterlimit="10" stroke-width="2" />
-                    </svg>
-                </label>
-        </header>
-    </div>
+        <div class="header">
+            <header>
+                <div class="container">
+                    <h1 class="logo"><a class="logo-home" href="index.html">Chris Rodriguez</a></h1>
+                    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                    <nav>
+                        <ul>
+                            <li class="home"><a href="index.html">Home</a></li>
+                            <li class="about"><a href="about.html">About</a></li>
+                            <li class="resume"><a
+                                    href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
+                                    target="_blank">Resume</a></li>
+                        </ul>
+                    </nav>
+                    <label for="nav-toggle" class="nav-toggle-label">
+                        <svg class="hamburger" viewBox="0 0 100 100">
+                            <line class="line-one" x1="50" y1="42" x2="100" y2="42" fill="none" stroke="#fff"
+                                stroke-miterlimit="10" stroke-width="2" />
+                            <line class="line-three" x1="50" y1="72" x2="100" y2="72" fill="none" stroke="#fff"
+                                stroke-miterlimit="10" stroke-width="2" />
+                        </svg>
+                    </label>
+            </header>
+        </div>
 
-    <div class="spacer"></div>
+        <div class="spacer"></div>
 
-    <div class="progressContainer">
-        <div class="progressFill" id="myProgress" style="height: 0%;"></div>
-        <div class="progressFillAnimation" id="myProgress"></div>
-    </div>
+        <div class="progressContainer">
+            <div class="progressFill" id="myProgress" style="height: 0%;"></div>
+            <div class="progressFillAnimation" id="myProgress"></div>
+        </div>
 
-    <div class="hero-container">
-        <div class="hero">
-            <div class="header2">
-                <img src="images/me-ico.jpg" alt="">
-                <div class="info">
-                    <h1>Hello, I'm Chris.</h1>
-                    <p>👋 I'm a Product Designer & Developer based in Nashville, attending Belmont University. Actively searching for internship opportunities.</p>
+        <div class="hero-container">
+            <div class="hero">
+                <div class="header2">
+                    <img src="images/me-ico.jpg" alt="">
+                    <div class="info">
+                        <h1>Hello, I'm Chris.</h1>
+                        <p>👋 I'm a Product Designer & Developer based in Nashville, attending Belmont University.
+                            Actively
+                            searching for internship opportunities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll">
+                <div class="scroll-down">
+                    <img class="arrow" src="icons/arrow-down.svg" alt="">
+                    <p class="arrow-text">Scroll</p>
+                </div>
+                <div class="projects">
+                    <p>Below you’ll find design exercises, client work, and personal projects.</p>
                 </div>
             </div>
         </div>
 
-        <div class="scroll">
-            <div class="scroll-down">
-                <img class="arrow" src="icons/arrow-down.svg" alt="">
-                <p class="arrow-text">Scroll</p>
+        <div class="project">
+            <div class="project-sep">
+                <img class="line" src="icons/line.svg" alt="">
+                <h1>Projects</h1>
             </div>
-            <div class="projects">
-                <p>Below you’ll find design exercises, client work, and personal projects.</p>
-            </div>
+            <p>Due to the nature of design exercises, <span class="span-bold">a project may be under NDA</span> and
+                require
+                a password to view. Please get
+                in contact with me to discuss the project further and or request the password.</p>
         </div>
-    </div>
 
-    <div class="project">
-        <div class="project-sep">
-            <img class="line" src="icons/line.svg" alt="">
-            <h1>Projects</h1>
-        </div>
-        <p>Due to the nature of design exercises, <span class="span-bold">a project may be under NDA</span> and require
-            a password to view. Please get
-            in contact with me to discuss the project further and or request the password.</p>
-    </div>
-
-    <div class="project-container">
-        <a class="google-project" href="google.html">
-            <div class="google-container">
-                <div class="project-left">
-                    <div class="image-left">
-                        <img class="iphone" src="images/google.png" alt="">
+        <div class="project-container">
+            <a class="google-project" href="google.html">
+                <div class="google-container">
+                    <div class="project-left">
+                        <div class="image-left">
+                            <img class="iphone" src="images/google.png" alt="">
+                        </div>
+                        <div class="text-left">
+                            <h1>Google</h1>
+                            <span>I was able to participate in the Google Design exercise in correspondance to their
+                                2020
+                                summer internship application.
+                                <br>
+                                <div class="case-study">
+                                    <p>View Case Study</p>
+                                    <img class="arrow-right" src="icons/arrow-right.svg" alt="">
+                                </div>
+                        </div>
                     </div>
-                    <div class="text-left">
-                        <h1>Google</h1>
-                        <span>I was able to participate in the Google Design exercise in correspondance to their 2020
-                            summer internship application.
-                            <br>
+                    <div class="sub-head">
+                        <div class="role">
+                            <p><span class="span-bold">Role:</span> Product Designer</p>
+                        </div>
+                        <div class="date">
+                            <p><span class="span-bold">When:</span> February 12-19, 2020</p>
+                        </div>
+                        <div class="software">
+                            <p><span class="span-bold">Software:</span> <img class="icon" src="icons/sketch.png" alt="">
+                                Sketch,
+                                <img class="icon" src="icons/invision-studio.svg" alt=""> InVision Studio, <img
+                                    class="icon" src="icons/photoshop.png" alt=""> Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="google-project" href="#">
+                <div class="google-container">
+                    <div class="project-left">
+                        <div class="image-left">
+                            <img class="google-image"
+                                src="https://images.unsplash.com/photo-1533310266094-8898a03807dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                                alt="">
+                        </div>
+                        <div class="text-left">
+                            <h1>Localize AR</h1>
+                            <span>Localize is a personal project started out of curiosity with the goal of exploring AR
+                                possibilities to help the user find new places to visit in their university's
+                                city.</span>
                             <div class="case-study">
-                                <p>View Case Study</p>
+                                <p>In Progress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-head">
+                        <div class="role">
+                            <p><span class="span-bold">Role:</span> Product Designer</p>
+                        </div>
+                        <div class="date">
+                            <p><span class="span-bold">When:</span> February 2020 - Present</p>
+                        </div>
+                        <div class="software">
+                            <p><span class="span-bold">Software:</span> <img class="figma" src="icons/figma.svg" alt="">
+                                Figma, <img class="icon" src="icons/invision-studio.svg" alt=""> InVision Studio,
+                                <img class="icon" src="icons/after-effects.svg" alt=""> After Effects, <img class="icon"
+                                    src="icons/photoshop.png" alt=""> Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="google-project" href="#">
+                <div class="google-container">
+                    <div class="project-left">
+                        <div class="image-left-botmart">
+                            <img class="google-image" src="images/botmart.png" alt="">
+                        </div>
+                        <div class="text-left">
+                            <h1>BotMart</h1>
+                            <span>BotMart's team reached out to me to help them completely revamp their website and
+                                ensure a
+                                pleasant experience for their customers and users.</span>
+                            <div class="case-study">
+                                <p>Coming Soon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-head">
+                        <div class="role">
+                            <p><span class="span-bold">Role:</span> Product Designer</p>
+                        </div>
+                        <div class="date">
+                            <p><span class="span-bold">When:</span> November 2019 - Present</p>
+                        </div>
+                        <div class="software">
+                            <p><span class="span-bold">Software:</span> <img class="figma" src="icons/figma.svg" alt="">
+                                Figma,
+                                <img class="icon" src="icons/sketch.png" alt=""> Sketch, <img class="icon"
+                                    src="icons/photoshop.png" alt=""> Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="google-project" target="_blank"
+                href="https://twitter.com/Cybersole/status/1138914695144968193?s=20">
+                <div class="google-container">
+                    <div class="project-left">
+                        <div class="image-left-mac">
+                            <img class="iphone" src="images/cybersole.png" alt="">
+                        </div>
+                        <div class="text-left">
+                            <h1>Cybersole</h1>
+                            <span>I was contacted by the Cybersole team to create a promotional marketing animation
+                                advertising their software's latest update.</span>
+                            <div class="case-study">
+                                <p>View Project</p>
                                 <img class="arrow-right" src="icons/arrow-right.svg" alt="">
                             </div>
+                        </div>
                     </div>
-                </div>
-                <div class="sub-head">
-                    <div class="role">
-                        <p><span class="span-bold">Role:</span> Product Designer</p>
-                    </div>
-                    <div class="date">
-                        <p><span class="span-bold">When:</span> February 12-19, 2020</p>
-                    </div>
-                    <div class="software">
-                        <p><span class="span-bold">Software:</span> <img class="icon" src="icons/sketch.png" alt="">
-                            Sketch,
-                            <img class="icon" src="icons/invision-studio.svg" alt=""> InVision Studio, <img class="icon"
-                                src="icons/photoshop.png" alt=""> Photoshop</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="google-project" href="#">
-            <div class="google-container">
-                <div class="project-left">
-                    <div class="image-left">
-                        <img class="google-image"
-                            src="https://images.unsplash.com/photo-1533310266094-8898a03807dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-                            alt="">
-                    </div>
-                    <div class="text-left">
-                        <h1>Localize AR</h1>
-                        <span>Localize is a personal project started out of curiosity with the goal of exploring AR
-                            possibilities to help the user find new places to visit in their university's city.</span>
-                        <div class="case-study">
-                            <p>In Progress</p>
+                    <div class="sub-head">
+                        <div class="role">
+                            <p><span class="span-bold">Role:</span> Motion Designer</p>
+                        </div>
+                        <div class="date">
+                            <p><span class="span-bold">When:</span> June 2019</p>
+                        </div>
+                        <div class="software">
+                            <p><span class="span-bold">Software:</span> <img class="icon" src="icons/after-effects.svg"
+                                    alt=""> After Effects, <img class="icon" src="icons/photoshop.png" alt=""> Photoshop
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="sub-head">
-                    <div class="role">
-                        <p><span class="span-bold">Role:</span> Product Designer</p>
+            </a>
+            <a class="google-project" target="_blank"
+                href="https://twitter.com/KodaiAIO/status/1187082493968543744?s=20">
+                <div class="google-container">
+                    <div class="project-left">
+                        <div class="image-left-windows">
+                            <img class="iphone" src="images/kodai.png" alt="">
+                        </div>
+                        <div class="text-left">
+                            <h1>Kodai</h1>
+                            <span>Kodai's team contacted me to create a marketing animation showing off the latest
+                                addition
+                                to their software, a management hub that allows their users easily manage their
+                                license.</span>
+                            <div class="case-study">
+                                <p>View Project</p>
+                                <img class="arrow-right" src="icons/arrow-right.svg" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="date">
-                        <p><span class="span-bold">When:</span> February 2020 - Present</p>
-                    </div>
-                    <div class="software">
-                        <p><span class="span-bold">Software:</span> <img class="figma" src="icons/figma.svg" alt="">
-                            Figma, <img class="icon" src="icons/invision-studio.svg" alt=""> InVision Studio,
-                            <img class="icon" src="icons/after-effects.svg" alt=""> After Effects, <img class="icon"
-                                src="icons/photoshop.png" alt=""> Photoshop</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="google-project" href="#">
-            <div class="google-container">
-                <div class="project-left">
-                    <div class="image-left-botmart">
-                        <img class="google-image" src="images/botmart.png" alt="">
-                    </div>
-                    <div class="text-left">
-                        <h1>BotMart</h1>
-                        <span>BotMart's team reached out to me to help them completely revamp their website and ensure a
-                            pleasant experience for their customers and users.</span>
-                        <div class="case-study">
-                            <p>Coming Soon</p>
+                    <div class="sub-head">
+                        <div class="role">
+                            <p><span class="span-bold">Role:</span> Motion Designer, Creative Director</p>
+                        </div>
+                        <div class="date">
+                            <p><span class="span-bold">When:</span> September - October 2019</p>
+                        </div>
+                        <div class="software">
+                            <p><span class="span-bold">Software:</span> <img class="icon" src="icons/xd.svg" alt="">
+                                Adobe
+                                XD, <img class="icon" src="icons/after-effects.svg" alt=""> After Effects, <img
+                                    class="icon" src="icons/video-copilot.png" alt=""> Element
+                                3D, <img class="icon" src="icons/photoshop.png" alt=""> Photoshop</p>
                         </div>
                     </div>
                 </div>
-                <div class="sub-head">
-                    <div class="role">
-                        <p><span class="span-bold">Role:</span> Product Designer</p>
-                    </div>
-                    <div class="date">
-                        <p><span class="span-bold">When:</span> November 2019 - Present</p>
-                    </div>
-                    <div class="software">
-                        <p><span class="span-bold">Software:</span> <img class="figma" src="icons/figma.svg" alt="">
-                            Figma,
-                            <img class="icon" src="icons/sketch.png" alt=""> Sketch, <img class="icon"
-                                src="icons/photoshop.png" alt=""> Photoshop</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="google-project" target="_blank" href="https://twitter.com/Cybersole/status/1138914695144968193?s=20">
-            <div class="google-container">
-                <div class="project-left">
-                    <div class="image-left-mac">
-                        <img class="iphone" src="images/cybersole.png" alt="">
-                    </div>
-                    <div class="text-left">
-                        <h1>Cybersole</h1>
-                        <span>I was contacted by the Cybersole team to create a promotional marketing animation
-                            advertising their software's latest update.</span>
-                        <div class="case-study">
-                            <p>View Project</p>
-                            <img class="arrow-right" src="icons/arrow-right.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-head">
-                    <div class="role">
-                        <p><span class="span-bold">Role:</span> Motion Designer</p>
-                    </div>
-                    <div class="date">
-                        <p><span class="span-bold">When:</span> June 2019</p>
-                    </div>
-                    <div class="software">
-                        <p><span class="span-bold">Software:</span> <img class="icon" src="icons/after-effects.svg"
-                                alt=""> After Effects, <img class="icon" src="icons/photoshop.png" alt=""> Photoshop</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="google-project" target="_blank" href="https://twitter.com/KodaiAIO/status/1187082493968543744?s=20">
-            <div class="google-container">
-                <div class="project-left">
-                    <div class="image-left-windows">
-                        <img class="iphone" src="images/kodai.png" alt="">
-                    </div>
-                    <div class="text-left">
-                        <h1>Kodai</h1>
-                        <span>Kodai's team contacted me to create a marketing animation showing off the latest addition
-                            to their software, a management hub that allows their users easily manage their
-                            license.</span>
-                        <div class="case-study">
-                            <p>View Project</p>
-                            <img class="arrow-right" src="icons/arrow-right.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-head">
-                    <div class="role">
-                        <p><span class="span-bold">Role:</span> Motion Designer, Creative Director</p>
-                    </div>
-                    <div class="date">
-                        <p><span class="span-bold">When:</span> September - October 2019</p>
-                    </div>
-                    <div class="software">
-                        <p><span class="span-bold">Software:</span> <img class="icon" src="icons/xd.svg" alt=""> Adobe
-                            XD, <img class="icon" src="icons/after-effects.svg" alt=""> After Effects, <img class="icon"
-                                src="icons/video-copilot.png" alt=""> Element
-                            3D, <img class="icon" src="icons/photoshop.png" alt=""> Photoshop</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
+            </a>
+        </div>
 
-    <div class="footer">
-        <div class="column1">
-            <ul>
-                <li class="title">Thank You</li>
-                <li>Thank you for visiting and scrolling through my portfolio. If you want to talk about any of my
-                    projects or
-                    just chat, I'd love to hear from you!</li>
-            </ul>
-        </div>
-        <div class="column3">
-            <ul>
-                <li class="title">Contact</li>
-                <li>+1 615 971 6558</li>
-                <li>chrisleerod@gmail.com</li>
-            </ul>
-        </div>
-        <div class="column2">
-            <ul>
-                <li class="title">Social Links</li>
-                <a href="https://github.com/chrisleerod" target="_blank">
-                    <li>GitHub</li>
-                </a>
-                <a href="https://linkedin.com/in/chrisleerod" target="_blank">
-                    <li>LinkedIn</li>
-                </a>
-            </ul>
-        </div>
-        <div class="column4">
-            <ul>
-                <li class="title">External Links</li>
-                <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
-                    target="_blank">
-                    <li>Resume</li>
-                </a>
-            </ul>
+        <div class="footer">
+            <div class="column1">
+                <ul>
+                    <li class="title">Thank You</li>
+                    <li>Thank you for visiting and scrolling through my portfolio. If you want to talk about any of my
+                        projects or
+                        just chat, I'd love to hear from you!</li>
+                </ul>
+            </div>
+            <div class="column3">
+                <ul>
+                    <li class="title">Contact</li>
+                    <li>+1 615 971 6558</li>
+                    <li>chrisleerod@gmail.com</li>
+                </ul>
+            </div>
+            <div class="column2">
+                <ul>
+                    <li class="title">Social Links</li>
+                    <a href="https://github.com/chrisleerod" target="_blank">
+                        <li>GitHub</li>
+                    </a>
+                    <a href="https://linkedin.com/in/chrisleerod" target="_blank">
+                        <li>LinkedIn</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="column4">
+                <ul>
+                    <li class="title">External Links</li>
+                    <a href="https://drive.google.com/file/d/1aXlgDU4Z2KY_8nh4HK91mrrIH8Dhj6xc/view?usp=sharing"
+                        target="_blank">
+                        <li>Resume</li>
+                    </a>
+                </ul>
+            </div>
         </div>
     </div>
 
