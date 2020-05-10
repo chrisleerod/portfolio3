@@ -13,6 +13,7 @@ body, html {
 ::-webkit-scrollbar {
     display: none;
 }
+
 .wrap {
     position: absolute;
     top: 0;

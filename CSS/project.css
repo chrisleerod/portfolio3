@@ -14,6 +14,15 @@ body, html {
     display: none;
 }
 
+.wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: scroll;
+  }
+
 .cursor {
     overflow: hidden;
     width: 1.5em;
@@ -27,7 +36,7 @@ body, html {
     transition: all 0.5s ease;
     transition-property: background-color, border, transform;
     transform-origin: 250% 250%;
-    z-index: 3;
+    z-index: 2;
 }
 
 .cursor-shrink {
@@ -68,35 +77,6 @@ body, html {
     width: 25vw;
     height: 100vh;
     background-color: black;
-}
-
-.progressContainer {
-    position: fixed;
-    top: 50%;
-    right: 32px;
-    z-index: 1;
-    height: 100px;
-    width: 2px;
-    background: rgba(152, 152, 158, 0.3);
-    overflow: hidden;
-    transform: translate(0, -50%);
-}
-
-.progressFill {
-    width: 2px;
-    background: white;
-    height: 0%;
-}
-
-.progressFillAnimation {
-    animation: barAnimation 2s;
-    -moz-animation: barAnimation 2s;
-    /* Firefox */
-    -webkit-animation: barAnimation 2s;
-    /* Safari and Chrome */
-    -o-animation: barAnimation 2s;
-    /* Opera */
-    height: 0;
 }
 
 .top-image {
