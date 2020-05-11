@@ -345,6 +345,28 @@ figcaption {
     margin-bottom: 16px;
 }
 
+.number-heading {
+    display: inline-flex;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.number {
+    color: white;
+    background-color: #4c6ff0;
+    width: 48px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.number h1 {
+    margin: 0px;
+    font-size: 16px
+}
+
 .understand2 {
     max-width: 680px;
     margin: 0 auto;
@@ -354,7 +376,7 @@ figcaption {
 }
 
 .understand2 h1 {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 .understand p {
@@ -443,7 +465,7 @@ figcaption {
 }
 
 .define h1 {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 .insights h1 {
@@ -489,7 +511,7 @@ figcaption {
 }
 
 .sketch h1 {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 .iterations {
@@ -521,7 +543,7 @@ figcaption {
 }
 
 .prototype h1 {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 .view-prototype {
