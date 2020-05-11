@@ -362,7 +362,7 @@ body, html {
 }
 
 .google-project:hover .arrow-right {
-    transform: translateX(25px);
+    transform: translateX(16px);
 }
 
 .google-project:hover .google-image {
@@ -376,7 +376,7 @@ body, html {
 }
 
 .localize-project:hover .arrow-right {
-    transform: translateX(25px);
+    transform: translateX(16px);
 }
 
 .project-left {
