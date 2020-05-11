@@ -596,11 +596,43 @@ figcaption {
 
 .final-designs {
     margin: 0 auto;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     max-width: 680px;
 }
 
 .final-designs h1 {
+    margin-bottom: 16px;
+}
+
+.reflection {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 680px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding-top: 128px;
+}
+
+.reflection h1 {
+    margin-bottom: 16px;
+}
+
+.outcome {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 680px;
+}
+
+.outcome h1 {
+    margin-bottom: 16px;
+}
+
+.thank-you {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    max-width: 680px;
+}
+
+.thank-you h1 {
     margin-bottom: 16px;
 }
 
