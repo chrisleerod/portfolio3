@@ -702,12 +702,110 @@ figcaption {
 
     .project-header {
         margin-top: 64px;
+        margin-bottom: 64px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
 
+    .outcome-top {
+        margin-bottom: 64px;
+    }
+
     .project-header h1 {
         margin-bottom: 16px;
+    }
+
+    .img-container {
+        margin-bottom: 64px;
+    }
+
+    .background-info {
+        margin-bottom: 32px;
+    }
+
+    .the-challenge {
+        margin-bottom: 32px;
+    }
+
+    .defining-the-sprint {
+        margin-bottom: 64px;
+    }
+
+    .understand2 {
+        padding-top: 64px;
+        margin-bottom: 32px;
+    }
+
+    .guidance-paragraph {
+        margin-bottom: 32px;
+    }
+
+    .understand {
+        margin-bottom: 64px;
+    }
+
+    .define {
+        padding-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .integrations {
+        margin-bottom: 64px;
+    }
+
+    .personas {
+        margin-bottom: 32px;
+    }
+
+    .experienced-students {
+        margin-bottom: 64px;
+    }
+
+    .sketch {
+        padding-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .iterations {
+        margin-bottom: 64px;
+    }
+
+    .validating-iterations {
+        margin-bottom: 64px;
+    }
+
+    .prototype {
+        padding-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .user-testing {
+        margin-bottom: 64px;
+    }
+
+    .user-feedback {
+        margin-bottom: 32px;
+    }
+
+    .testing-accomplish {
+        margin-bottom: 32px;;
+    }
+
+    .final-designs {
+        margin-bottom: 64px;
+    }
+
+    .reflection {
+        padding-top: 64px;
+        margin-bottom: 32px;
+    }
+
+    .outcome {
+        margin-bottom: 32px;
+    }
+
+    .thank-you {
+        margin-bottom: 64px;
     }
 }
