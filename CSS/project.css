@@ -472,7 +472,7 @@ figcaption {
 
 .personas {
     margin: 0 auto;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     max-width: 680px;
 }
 
@@ -484,7 +484,7 @@ figcaption {
     margin: 0 auto;
     max-width: 680px;
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     background-color: #151518;
     padding: 32px;
     border-radius: 6px;
@@ -494,7 +494,7 @@ figcaption {
     margin: 0 auto;
     max-width: 680px;
     display: flex;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     background-color: #151518;
     padding: 32px;
     border-radius: 6px;
@@ -817,15 +817,17 @@ h1.year {
     }
 
     .personas {
-        margin-bottom: 32px;
+        margin-bottom: 64px;
     }
 
     .persona-card {
         flex-direction: column;
+        margin-bottom: 32px;
     }
 
     .persona-card-bottom {
         flex-direction: column;
+        margin-bottom: 64px;
     }
 
     .persona-pic1 {
