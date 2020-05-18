@@ -480,6 +480,68 @@ figcaption {
     margin-bottom: 16px;
 }
 
+.persona-card {
+    margin: 0 auto;
+    max-width: 680px;
+    display: flex;
+    margin-bottom: 32px;
+    background-color: #151518;
+    padding: 32px;
+    border-radius: 6px;
+}
+
+.persona-card-bottom {
+    margin: 0 auto;
+    max-width: 680px;
+    display: flex;
+    margin-bottom: 64px;
+    background-color: #151518;
+    padding: 32px;
+    border-radius: 6px;
+}
+
+.persona-pic1 {
+    margin-right: 32px;
+    max-width: 96px;
+    width: 100%;
+    height: 96px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+
+.persona-pic2 {
+    margin-right: 32px;
+    max-width: 96px;
+    width: 100%;
+    height: 96px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+
+.persona-pic3 {
+    margin-right: 32px;
+    max-width: 96px;
+    width: 100%;
+    height: 96px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80');
+}
+
+h1.name {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+h1.year {
+    font-size: 12px;
+    color: #A5ABB1;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
 .experienced-students {
     margin: 0 auto;
     margin-bottom: 128px;
@@ -755,6 +817,29 @@ figcaption {
     }
 
     .personas {
+        margin-bottom: 32px;
+    }
+
+    .persona-card {
+        flex-direction: column;
+    }
+
+    .persona-card-bottom {
+        flex-direction: column;
+    }
+
+    .persona-pic1 {
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .persona-pic2 {
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .persona-pic3 {
+        margin: 0 auto;
         margin-bottom: 32px;
     }
 
