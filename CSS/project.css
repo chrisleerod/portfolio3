@@ -531,7 +531,7 @@ figcaption {
 }
 
 h1.name {
-    font-size: 16px;
+    font-size: 22px;
     margin-bottom: 16px;
 }
 
@@ -843,6 +843,10 @@ h1.year {
     .persona-pic3 {
         margin: 0 auto;
         margin-bottom: 32px;
+    }
+
+    .persona-info {
+        text-align: center;
     }
 
     .experienced-students {
