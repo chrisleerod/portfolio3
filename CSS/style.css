@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -78,7 +80,6 @@ body, html {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .header2 {
@@ -97,17 +98,17 @@ body, html {
 }
 
 .hero h1 {
-    max-width: 550px;
-    font-size: 62px;
+    max-width: 750px;
+    font-size: 48px;
     font-weight: 600;
-    line-height: 1.1em;
+    line-height: 1.5em;
     margin: 0px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     color: white;
 }
 
 .hero p {
-    max-width: 550px;
+    max-width: 650px;
     font-size: 16px;
     margin: 0px;
     font-weight: 300;
@@ -266,9 +267,10 @@ body, html {
     max-width: 1264px;
     padding-left: 32px;
     padding-right: 32px;
-    height: 18px;
+    height: 20px;
     overflow: hidden;
     margin: 0 auto;
+    margin-bottom: 256px;
     display: flex;
     justify-content: space-between;
 }
@@ -277,11 +279,12 @@ body, html {
     color: white;
     margin: 0px;
     font-size: 16px;
-    font-weight: 400x;
+    font-weight: 300px;
 }
 
 .scroll-down {
     display: flex;
+    align-items: center;
 }
 
 .projects {
@@ -315,7 +318,7 @@ body, html {
     color: white;
     margin: 0px;
     margin-left: 16px;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .project p {
@@ -436,7 +439,7 @@ body, html {
 
 .project-left h1 {
     color: white;
-    font-size: 52px;
+    font-size: 48px;
     margin: 0px;
     margin-left: -75px;
     margin-bottom: 32px;
@@ -456,12 +459,12 @@ body, html {
 .project-left p {
     color: white;
     margin: 0px;
-    font-weight: 600;
-    margin-top: 24px;
+    font-weight: 300;
+    margin-top: 32px;
 }
 
 .arrow-right {
-    margin-top: 24px;
+    margin-top: 32px;
     margin-left: 16px;
     transition: all .5s ease;
 }
@@ -505,13 +508,17 @@ body, html {
         height: auto;
     }
     .hero h1 {
-        font-size: 42px;
+        font-size: 32px;
+        margin-bottom: 32px;
         max-width: none;
     }
     .hero p {
         font-size: 16px;
         margin: 0px;
         max-width: none;
+    }
+    .scroll p {
+        font-size: 16px;
     }
     .header2 {
         margin-top: 128px;
@@ -600,7 +607,8 @@ body, html {
     }
     .scroll {
         margin-top: 64px;
-        flex-direction: column;
+        margin-bottom: 64px;
+        padding: 0px 16px;
         align-items: center;
     }
     .projects {
@@ -642,13 +650,13 @@ body, html {
         justify-content: none;
     }
     .hero h1 {
-        font-size: 42px;
+        font-size: 32px;
         max-width: none;
         margin: 0px;
+        margin-bottom: 32px;
         text-align: left;
     }
     .hero p {
-        margin-top: 16px;
         text-align: left;
         max-width: none;
     }
@@ -740,14 +748,11 @@ body, html {
     }
     .scroll {
         margin-top: 64px;
-        flex-direction: column;
+        margin-bottom: 64px;
         align-items: center;
     }
     .projects {
         display: none;
-    }
-    .project-sep h1 {
-        font-size: 22px;
     }
     .project {
         margin-bottom: 128px;
@@ -763,8 +768,8 @@ body, html {
         color: white;
         font-size: 32px;
         margin: 0px;
-        margin-top: 32px;
-        margin-bottom: 16px;
+        margin-top: 64px;
+        margin-bottom: 32px;
     }
     .sub-head p {
         line-height: 1.5em;
