@@ -636,7 +636,7 @@ h1.year {
 
 .testing-accomplish {
     margin: 0 auto;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     max-width: 680px;
 }
 
@@ -880,7 +880,7 @@ h1.year {
     }
 
     .testing-accomplish {
-        margin-bottom: 32px;;
+        margin-bottom: 64px;;
     }
 
     .final-designs {
