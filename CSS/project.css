@@ -702,6 +702,21 @@ h1.year {
 }
 
 @media only screen and (max-width: 992px) {
+    .project-header h1 {
+        margin-bottom: 16px;
+        margin: 0 auto;
+        max-width: 680px;
+    }
+
+    .project-info {
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+
+    .header-p {
+        max-width: 680px;
+    }
+
     .cursor {
         display: none;
     }
