@@ -451,7 +451,7 @@ body, html {
     font-size: 48px;
     margin: 0px;
     margin-left: -75px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .project-left span {
@@ -471,8 +471,9 @@ body, html {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: white;
+    line-height: 2em;
     margin: 0px;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 32px;
 }
 
