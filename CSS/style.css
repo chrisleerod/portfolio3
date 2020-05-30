@@ -81,11 +81,23 @@ body, html {
     justify-content: center;
 }
 
+.border-container {
+    margin: 0 auto;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.border {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
 .header2 {
     display: flex;
     align-items: center;
     padding-bottom: 256px;
-    border-bottom: 1px solid white;
     margin-top: 256px;
 }
 
@@ -97,11 +109,16 @@ body, html {
     margin-right: 64px;
 }
 
+.spanAnim {
+    display: inline-block;
+    overflow: hidden;
+}
+
 .hero h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 48px;
     line-height: 1.5em;
+    font-size: 48px;
     margin: 0px;
     margin-bottom: 64px;
     color: white;
@@ -682,6 +699,10 @@ body, html {
     .header2 img {
         margin-bottom: 32px;
         margin-right: 0px;
+    }
+    .border-container {
+        padding-left: 16px;
+        padding-right: 16px;
     }
     .skills {
         display: none;

@@ -15,4 +15,4 @@ tl
     .from(".social2", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 2.5)
     .from(".social3", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 2.7)
     .from(".social4", { duration: 2, y: 30, opacity: 0, ease: Power3.easeOut }, 2.9)
-    .from(".text h1", { duration: 2, y: 50, ease: Power2.easeInOut }, 2);
+    .from(".text h1", { duration: 2, y: 50, ease: Power2.easeInOut }, 2.2);
