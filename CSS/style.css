@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -86,7 +84,8 @@ body, html {
 .header2 {
     display: flex;
     align-items: center;
-    margin-bottom: 256px;
+    padding-bottom: 256px;
+    border-bottom: 1px solid white;
     margin-top: 256px;
 }
 
@@ -99,25 +98,26 @@ body, html {
 }
 
 .hero h1 {
-    max-width: 750px;
-    font-size: 48px;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
+    font-size: 48px;
     line-height: 1.5em;
     margin: 0px;
-    margin-bottom: 16px;
+    margin-bottom: 64px;
     color: white;
 }
 
 .hero p {
-    max-width: 550px;
-    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
     margin: 0px;
-    font-weight: 300;
     line-height: 2em;
-    color: #A5ABB1;
+    color: white;
 }
 
 .span-bold {
+    font-family: 'Inter', sans-serif;
     color: white;
     font-weight: 600;
 }
@@ -265,12 +265,16 @@ body, html {
 }
 
 .scroll {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
     max-width: 1264px;
     padding-left: 32px;
     padding-right: 32px;
-    height: 20px;
+    height: 34px;
     overflow: hidden;
     margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 256px;
     display: flex;
     justify-content: space-between;
 }
@@ -288,7 +292,8 @@ body, html {
 }
 
 .projects {
-    height: 51px;
+    display: flex;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -298,6 +303,7 @@ body, html {
 }
 
 .project {
+    font-family: 'Inter', sans-serif;
     margin: 0 auto;
     max-width: 1264px;
     padding-left: 32px;
@@ -318,7 +324,7 @@ body, html {
     color: white;
     margin: 0px;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .project p {
@@ -332,6 +338,7 @@ body, html {
 }
 
 .project-container {
+    font-family: 'Inter Regular', sans-serif;
     margin: 0 auto;
     max-width: 1264px;
     width: 100%;
@@ -438,6 +445,8 @@ body, html {
 }
 
 .project-left h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     color: white;
     font-size: 48px;
     margin: 0px;
@@ -446,6 +455,8 @@ body, html {
 }
 
 .project-left span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
     color: #A5ABB1;
     margin: 0px;
     line-height: 2em;
@@ -457,9 +468,11 @@ body, html {
 }
 
 .project-left p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     color: white;
     margin: 0px;
-    font-weight: 300;
+    font-size: 18px;
     margin-top: 32px;
 }
 
@@ -470,12 +483,13 @@ body, html {
 }
 
 .sub-head {
+    font-family: 'Inter', sans-serif;
     margin-top: 64px;
     display: flex;
     justify-content: space-between;
     color: #A5ABB1;
     padding-bottom: 64px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid white;
 }
 
 .sub-head p {
@@ -522,7 +536,7 @@ body, html {
     }
     .header2 {
         margin-top: 128px;
-        margin-bottom: 128px;
+        padding-bottom: 128px;
     }
     .header2 img {
         max-width: 128px;
@@ -606,7 +620,6 @@ body, html {
         align-items: center;
     }
     .scroll {
-        margin-top: 64px;
         margin-bottom: 64px;
         padding: 0px 16px;
         align-items: center;
@@ -653,7 +666,7 @@ body, html {
         font-size: 32px;
         max-width: none;
         margin: 0px;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
         text-align: left;
     }
     .hero p {
@@ -661,7 +674,7 @@ body, html {
         max-width: none;
     }
     .header2 {
-        margin-top: 64px;
+        margin-top: 128px;
         margin-bottom: 0px;
         flex-direction: column;
     }
@@ -747,7 +760,6 @@ body, html {
         align-items: center;
     }
     .scroll {
-        margin-top: 128px;
         margin-bottom: 128px;
         align-items: center;
     }
@@ -779,10 +791,10 @@ body, html {
         margin-left: 0px;
     }
     .role {
-        margin-bottom: 12px;
+        margin-bottom: 16px;
     }
     .date {
-        margin-bottom: 12px;
+        margin-bottom: 16px;
     }
     .sub-head {
         margin-top: 64px;
