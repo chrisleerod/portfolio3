@@ -674,7 +674,7 @@ body, html {
         max-width: none;
     }
     .header2 {
-        margin-top: 128px;
+        margin-top: 64px;
         margin-bottom: 0px;
         flex-direction: column;
     }
