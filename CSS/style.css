@@ -18,11 +18,11 @@ body, html {
     border: 1px solid rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.25);
     position: fixed;
-    transform: translate(-50%, -50%);
+    transform: translate(-40%, -48%);
     pointer-events: none;
     transition: all 0.5s ease;
     transition-property: background-color, border, transform;
-    transform-origin: 250% 250%;
+    transform-origin: 240% 240%;
     z-index: 3;
 }
 
@@ -117,7 +117,7 @@ body, html {
 .hero h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    line-height: 1.4em;
+    line-height: 1.3em;
     font-size: 48px;
     margin: 0px;
     margin-bottom: 64px;
