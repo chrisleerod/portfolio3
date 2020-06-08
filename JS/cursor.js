@@ -3,6 +3,7 @@ let link = document.querySelectorAll('a');
 let nav = document.querySelectorAll('.hamburger');
 var $ = document.querySelector.bind(document);
 var $on = document.addEventListener.bind(document);
+
 var followMouse = function() {
   key = requestAnimationFrame(followMouse);
 
@@ -10,8 +11,8 @@ var followMouse = function() {
     x = xmouse;
     y = ymouse;
   } else {
-    dx = (xmouse - x) * 0.125;
-    dy = (ymouse - y) * 0.125;
+    dx = (xmouse - x) * 1;
+    dy = (ymouse - y) * 1;
     if (Math.abs(dx) + Math.abs(dy) < 0.1) {
       x = xmouse;
       y = ymouse;
