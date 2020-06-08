@@ -6,20 +6,20 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
-    background: #050505;
-    backdrop-filter: saturate(180%) blur(20px);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background: #131414;
     text-align: center;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
+    border-bottom: 1px solid #2e2e30;
 }
 
 .container {
-    max-width: 1264px;
     margin: 0 auto;
 }
 
@@ -33,7 +33,6 @@ header {
     font-weight: 700;
     cursor: pointer;
     top: 0;
-    color: white;
     font-size: 16px;
     height: 100%;
     display: flex;
@@ -43,7 +42,7 @@ header {
     text-decoration: none;
     padding-bottom: 5px;
     padding-top: 5px;
-    color: white;
+    color: #dadada;
 }
 
 .nav-toggle {
@@ -70,7 +69,7 @@ nav {
     top: 100%;
     left: 0;
     width: 100%;
-    background: #050505;
+    background: #131414;
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
@@ -104,11 +103,11 @@ nav li {
     margin-left: 16px;
 }
 
-nav a {
+nav div {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
 }
@@ -121,7 +120,7 @@ nav a:hover {
     transform: scale(1, 1);
 }
 
-.nav-toggle:checked~nav a {
+.nav-toggle:checked~nav div {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
@@ -131,13 +130,23 @@ nav a:hover {
     height: 56.09px;
 }
 
+.link-2 {
+    opacity: 0;
+}
+
 @media screen and (min-width: 800px) {
+    .header {
+        height: 80px;
+    }
+    .link-2 {
+        opacity: 1;
+    }
     .nav-toggle-label {
         display: none;
     }
     .container {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 64px;
+        padding-right: 64px;
     }
     .logo {
         margin-left: 0;
@@ -145,8 +154,8 @@ nav a:hover {
         width: auto;
     }
     .logo-home {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 18px;
+        padding-bottom:24px;
     }
     nav {
         /* the following lines are not from my video, but add Edge support */
@@ -161,12 +170,24 @@ nav a:hover {
         left: initial;
         width: 50%;
         float: right;
-        padding-top: 20px;
+        padding-top: 24px;
         padding-bottom: 0;
         /* end Edge support stuff */
         display: flex;
         justify-content: flex-end;
         align-items: center;
+    }
+    .hover-animation {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: 32px;
+    }
+    .hover-animation span {
+        transition: all .5s ease;
+    }
+    .hover-animation:hover span {
+        transform: translateY(-32px);
     }
     .home {
         padding-bottom: 12px;
@@ -188,11 +209,13 @@ nav a:hover {
         margin-bottom: 0;
         text-align: right;
     }
-    nav a {
+    nav div {
         opacity: 1;
         position: relative;
+        color: #dadada;
+        font-weight: 500;
     }
-    nav a::before {
+    nav div::before {
         content: '';
         display: block;
         background: black;
@@ -202,11 +225,11 @@ nav a:hover {
         transform: scale(0, 1);
         transition: transform ease-in-out 250ms;
     }
-    nav a:hover::before {
+    nav div:hover::before {
         transform: scale(1, 1);
     }
     .spacer {
         width: 100%;
-        height: 76.09px;
+        height: 0px;
     }
 }

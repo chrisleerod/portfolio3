@@ -5,11 +5,10 @@
 }
 
 body {
-    font-family: 'Colfax', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
-    background: rgba(10, 10, 10, 0);
     text-align: center;
     position: fixed;
     width: 100%;
@@ -17,7 +16,6 @@ header {
 }
 
 .container {
-    max-width: 1264px;
     margin: 0 auto;
 }
 
@@ -103,7 +101,7 @@ nav li {
     margin-left: 16px;
 }
 
-nav a {
+nav div {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
     font-size: 16px;
@@ -120,7 +118,7 @@ nav a:hover {
     transform: scale(1, 1);
 }
 
-.nav-toggle:checked~nav a {
+.nav-toggle:checked~nav div {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
@@ -130,13 +128,20 @@ nav a:hover {
     height: 56.09px;
 }
 
+.link-2 {
+    opacity: 0;
+}
+
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
     }
+    .link-2 {
+        opacity: 1;
+    }
     .container {
-        padding-left: 32px;
-        padding-right: 32px;
+        padding-left: 64px;
+        padding-right: 64px;
     }
     .logo {
         margin-left: 0;
@@ -167,6 +172,18 @@ nav a:hover {
         justify-content: flex-end;
         align-items: center;
     }
+    .hover-animation {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: 32px;
+    }
+    .hover-animation span {
+        transition: all .5s ease;
+    }
+    .hover-animation:hover span {
+        transform: translateY(-32px);
+    }
     .home {
         padding-bottom: 12px;
         border-bottom: 0px solid #424245;
@@ -186,11 +203,13 @@ nav a:hover {
         margin-bottom: 0;
         text-align: right;
     }
-    nav a {
+    nav div {
         opacity: 1;
         position: relative;
+        color: white;
+        font-weight: 500;
     }
-    nav a::before {
+    nav div::before {
         content: '';
         display: block;
         background: black;
@@ -200,7 +219,7 @@ nav a:hover {
         transform: scale(0, 1);
         transition: transform ease-in-out 250ms;
     }
-    nav a:hover::before {
+    nav div:hover::before {
         transform: scale(1, 1);
     }
     .spacer {

@@ -1,6 +1,20 @@
 @import url('https://rsms.me/inter/inter.css');
 
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    background-color: #0d0e0e;
+}
+
+.footer-container {
     font-family: 'Inter', sans-serif;
     margin: 0 auto;
     display: flex;
@@ -10,8 +24,10 @@
     padding-left: 32px;
     padding-right: 32px;
     font-size: 14px;
-    margin-bottom: 64px;
+    padding-bottom: 64px;
+    padding-top: 64px;
 }
+
 
 ul {
     padding: 0px;
@@ -24,7 +40,7 @@ a {
 
 li {
     list-style: none;
-    color: white;
+    color: #dadada;
     line-height: 2em;
     font-weight: 300;
     max-width: 450px;
@@ -35,14 +51,15 @@ li {
     font-size: 16px;
     margin-bottom: 8px;
     font-weight: 600;
-    color: white;
+    color: #dadada;
 }
 
 @media only screen and (max-width: 992px) {
-    .footer {
+    .footer-container {
+        padding-top: 16px;
+        padding-bottom: 16px;
         padding-left: 16px;
         padding-right: 16px;
-        margin-bottom: 64px;
     }
 
     .title {
