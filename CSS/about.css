@@ -168,7 +168,7 @@
     margin-bottom: 64px;
     display: inline-flex;
     z-index: 1;
-    border: 1px solid #dadada;
+    border: 1px solid white;
     width: auto;
     padding: 8px;
     padding-left: 24px;
@@ -181,7 +181,7 @@
     margin: 0px;
     margin-top: 0px;
     font-weight: 700;
-    color: #dadada;
+    color: white;
 }
 
 .arrow-right {
