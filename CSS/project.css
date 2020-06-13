@@ -101,7 +101,7 @@ body, html {
     padding-left: 32px;
     padding-right: 32px;
     margin-bottom: auto;
-    padding-bottom: 64px;
+    padding-bottom: 128px;
 }
 
 .project-info {
@@ -690,7 +690,6 @@ h1.year {
 .thank-you {
     margin: 0 auto;
     max-width: 680px;
-    margin-bottom: 128px;
 }
 
 .thank-you h1 {
@@ -703,6 +702,10 @@ h1.year {
 }
 
 @media only screen and (max-width: 992px) {
+    .project-container {
+        padding-bottom: 64px;
+    }
+
     .project-header h1 {
         margin-bottom: 16px;
         margin: 0 auto;
@@ -910,9 +913,5 @@ h1.year {
 
     .outcome {
         margin-bottom: 32px;
-    }
-
-    .thank-you {
-        margin-bottom: 64px;
     }
 }
