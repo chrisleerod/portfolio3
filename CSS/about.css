@@ -119,6 +119,7 @@
     max-height: 300px;
     position: relative;
     overflow: hidden;
+    z-index: 0;
 }
 
 .me-pic {

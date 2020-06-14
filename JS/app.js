@@ -22,15 +22,29 @@ const nextStateMap = {
 }
 
 toggleMenu
-    .to(lineThree, .25, {transformOrigin: "50% 50%"}, "change")
-    .to(lineOne, .25, {transformOrigin: "50% 50%"}, "change")
-    .to(lineThree, .25, {y: -15}, 0)
-    .to(lineOne, .25, {y: 15}, 0)
-    .to(lineThree, .25, {rotation: -45}, "cross")
-    .to(lineOne, .25, {rotation: 45}, "cross");
+  .to(lineThree, .25, { transformOrigin: "50% 50%" }, "change")
+  .to(lineOne, .25, { transformOrigin: "50% 50%" }, "change")
+  .to(lineThree, .25, { y: -15 }, 0)
+  .to(lineOne, .25, { y: 15 }, 0)
+  .to(lineThree, .25, { rotation: -45 }, "cross")
+  .to(lineOne, .25, { rotation: 45 }, "cross");
 
 hamburger.addEventListener('click', () => {
   const isReversed = toggleMenu.reversed();
   hamburger.classList.toggle('js-x');
   nextStateMap[isReversed]();
 })
+
+function mobileNav() {
+  var checkbox = document.getElementById("nav-toggle");
+  var mobileNav = document.getElementById("mobile-nav");
+
+  if (checkbox.checked == true) {
+    mobileNav.style.display = "block";
+    document.body.style.overflow = "hidden";
+
+  } else {
+    mobileNav.style.display = "none";
+    document.body.style.overflow = "initial";
+  }
+}
