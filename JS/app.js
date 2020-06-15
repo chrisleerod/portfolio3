@@ -47,6 +47,7 @@ function mobileNav() {
   if (checkbox.checked == true) {
     mobileNav.style.display = "block";
     document.body.style.overflow = "hidden";
+    mobileNav.style.pointerEvents = "initial";
   } else {
     document.body.style.overflow = "initial";
     mobileNav.style.pointerEvents = "none";
