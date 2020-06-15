@@ -25,13 +25,14 @@ const nextStateMap = {
 }
 
 toggleMenu
-  .from(".mobile li", { duration: 0.5, y: 30, skewY: 5, stagger: 0.075, opacity: 0, ease: "circ.out" })
-  .to(lineThree, .25, { transformOrigin: "50% 50%" }, "change")
-  .to(lineOne, .25, { transformOrigin: "50% 50%" }, "change")
+  .from(".nav-container", { duration: 0.3, scale: 0.90, transformOrigin: "middle", opacity: 0, ease: "circ.easeInOut"}, 0)
+  .to(lineThree, .25, { transformOrigin: "50% 50%" }, "change", 0)
+  .to(lineOne, .25, { transformOrigin: "50% 50%" }, "change", 0)
   .to(lineThree, .25, { y: -15 }, 0)
   .to(lineOne, .25, { y: 15 }, 0)
-  .to(lineThree, .25, { rotation: -45 }, "cross")
-  .to(lineOne, .25, { rotation: 45 }, "cross")
+  .to(lineThree, .25, { rotation: -45 }, "cross", 0)
+  .to(lineOne, .25, { rotation: 45 }, "cross", 0)
+  .from(".mobile li", { duration: 0.5, y: 40, skewY: 5, stagger: 0.075, opacity: 0, ease: "circ.easeInOut"}, 0)
 
 hamburger.addEventListener('click', () => {
   const isReversed = toggleMenu.reversed();
@@ -47,7 +48,6 @@ function mobileNav() {
     mobileNav.style.display = "block";
     document.body.style.overflow = "hidden";
   } else {
-    mobileNav.style.display = "none";
     document.body.style.overflow = "initial";
   }
-}
+} 
