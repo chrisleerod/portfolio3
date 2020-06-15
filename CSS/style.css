@@ -27,7 +27,7 @@ body {
     transition: all 0.5s ease;
     transition-property: background-color, border, transform;
     transform-origin: 240% 240%;
-    z-index: 3;
+    z-index: 4;
 }
 
 .cursor-shrink {
