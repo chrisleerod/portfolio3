@@ -25,7 +25,7 @@ const nextStateMap = {
 }
 
 toggleMenu
-  .from(".mobile li", { duration: 0.75, y: 10, skewY: 5, stagger: 0.075, opacity: 0, ease: "circ.out" })
+  .from(".mobile li", { duration: 0.5, y: 30, skewY: 5, stagger: 0.075, opacity: 0, ease: "circ.out" })
   .to(lineThree, .25, { transformOrigin: "50% 50%" }, "change")
   .to(lineOne, .25, { transformOrigin: "50% 50%" }, "change")
   .to(lineThree, .25, { y: -15 }, 0)
