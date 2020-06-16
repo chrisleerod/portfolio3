@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    background: #131414;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -34,11 +35,11 @@ header {
     flex-direction: column;
     justify-content: center;
     padding: 16px;
-    background: #131414;
+    background: #0d0e0e;
 }
 
 .mobile a {
-    color: white;
+    color: #dadada;
 }
 
 .mobile li {
